@@ -9,7 +9,7 @@ title: Dew of your Youth
 
 	<ul class="posts">
 	  {% for post in site.posts %}
-		<li><span><a style="font-size: 1.3rem;" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br>
-		    {{ post.date | date_to_string }}</span></li>
+		<li><span> {{ post.date | date_to_string }}<br><a style="font-size: 1.5rem;" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</span></a>
+		   </li>
 	  {% endfor %}
 	</ul>
