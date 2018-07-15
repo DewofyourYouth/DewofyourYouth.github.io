@@ -1,1 +1,12 @@
 @import url(vim.css);
+
+
+footer ul {
+    display: block;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
