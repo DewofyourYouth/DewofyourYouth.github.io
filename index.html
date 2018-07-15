@@ -9,7 +9,7 @@ title: Dew of your Youth
 </div>
 
 
-
+<div class="container">
 	<ul class="posts">
 	  {% for post in site.posts %}
 		<li><span> {{ post.date | date_to_string }}<br><a style="font-size: 3rem;" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span>
@@ -17,3 +17,4 @@ title: Dew of your Youth
 		   </li>
 	  {% endfor %}
 	</ul>
+</div>

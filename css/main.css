@@ -1,5 +1,8 @@
 @import url(vim.css);
 
+.jumbotron {
+    border-radius: 0;
+}
 
 footer ul {
     display: block;
