@@ -16,6 +16,14 @@
     font-family: 'Press Start 2P', cursive;
 }
 
+.posts {
+    list-style: none;
+}
+
+.posts h1 a {
+    color: #ccc;
+}
+
 footer ul {
     display: block;
 }
