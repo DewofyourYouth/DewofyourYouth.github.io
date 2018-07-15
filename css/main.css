@@ -8,6 +8,8 @@
 
 .jumbotron {
     border-radius: 0;
+    color: #000;
+    color: #fff;
 }
 
 .navbar-brand, .jumbotron {
