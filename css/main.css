@@ -10,3 +10,7 @@ footer li {
     display: inline;
     padding: 20px;
 }
+
+.posts {
+    list-style: none;
+}
