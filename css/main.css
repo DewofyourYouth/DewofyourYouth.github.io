@@ -10,7 +10,7 @@
     border-radius: 0;
 }
 
-.navbar-brand {
+.navbar-brand, .jumbotron {
     font-family: 'Press Start 2P', cursive;
 }
 
