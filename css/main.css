@@ -24,6 +24,10 @@
     color: #9b8a8a;
 }
 
+.posts li:not(:last-child){
+    border-bottom: #ccc;
+}
+
 footer ul {
     display: block;
 }
