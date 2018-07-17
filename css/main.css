@@ -29,6 +29,10 @@
     margin: 5px;
 }
 
+.posts ul:last-child {
+    border-bottom: none;
+} 
+
 .posts li:last-of-type {
     border-bottom: none;
 }
