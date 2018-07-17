@@ -24,7 +24,7 @@
     color: #9b8a8a;
 }
 
-.posts li:not(:last-child){
+.posts li:not(:last-of-type){
     border-bottom: #ccc;
 }
 
