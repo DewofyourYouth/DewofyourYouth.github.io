@@ -4,6 +4,7 @@ highlighter: rouge
 title: Dew of your Youth
 description: Yaakov Shore rambles on about life, tech, coding and banjo licks.
 author: Yaakov Shore
+url: "https://dewofyouryouth.github.io"
 twitter:
   username: dewofyouryouth
 social: 
@@ -16,3 +17,4 @@ social:
     - https://codepen.io/JacobShore/
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
