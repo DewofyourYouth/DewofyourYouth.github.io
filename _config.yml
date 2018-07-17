@@ -1,3 +1,5 @@
 name: Dew of your Youth
 markdown: kramdown
 highlighter: rouge
+plugins:
+  - jekyll-seo-tag
