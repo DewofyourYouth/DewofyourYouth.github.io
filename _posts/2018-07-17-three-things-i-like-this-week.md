@@ -20,7 +20,7 @@ There's support for several versions of MySQL, PostgreSQL and SQLite.
 
 [Flutter](https://flutter.io/) is Google's new (at least it's new for me) SDK for making native apps for Android and iOS. I've never really been a huge fan of React-Native (I usually just go for Ionic if I need to make a quick app) and I find that this new framework makes allot more sense to me. 
 
-I like the prospect of making Native apps like this. It's also backed by Google. I'm hoping keep pushing this framework.
+I like the prospect of making Native apps like this. It's also backed by Google. I'm hoping Google keeps pushing this framework.
 
 ### [Hello Chinese](http://www.hellochinese.cc/)
 
