@@ -24,7 +24,7 @@ I like the prospect of making Native apps like this. It's also backed by Google.
 
 ### [HelloChinese](http://www.hellochinese.cc/)
 
-[HelloChinese](http://www.hellochinese.cc/) is an app for learning Chinese. Why am I learing Chinese? I have no immediate plans of moving to China. It's mostly due to research that learning a new language reduces risks of alzheimer's disease and dementia later on ([link here](https://bigthink.com/ideafeed/learning-a-new-language-later-in-life-helps-keep-your-brain-healthy) and [here](http://www.dailymail.co.uk/health/article-5363123/Learning-language-protect-ALZHEIMERS.html)). Brain atrophy is one of those scary things that keep me awake at night. Which is a shame, because sleep deprivation is not good for brain health. At least now, when I lie awake contemplating my own demise. I can distract myself practicing Mandarin! 
+[HelloChinese](http://www.hellochinese.cc/) is an app for learning Chinese. Why am I learing Chinese? I have no immediate plans of moving to China. It's mostly due to research that learning a new language reduces risks of alzheimer's disease and dementia later on ([link here](https://bigthink.com/ideafeed/learning-a-new-language-later-in-life-helps-keep-your-brain-healthy) and [here](http://www.dailymail.co.uk/health/article-5363123/Learning-language-protect-ALZHEIMERS.html)). Brain atrophy is one of those scary things that keep me awake at night. Which is a shame, because sleep deprivation is not good for brain health. At least now, when I lie awake contemplating my own demise, I can distract myself by practicing Mandarin! 
 
 Anyways, I found this app to be especially helpful. I wasn't impressed with the Duolingo Mandarin course.
 
