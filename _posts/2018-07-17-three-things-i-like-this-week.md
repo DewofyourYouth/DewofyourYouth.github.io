@@ -4,7 +4,7 @@ title: "3 Things I Like This Week"
 date: 2018-07-17
 ---
 
-Here is this week's list of things I like.
+Here is this week's list of things I like:
 
 1. [DB Fiddle](https://www.db-fiddle.com/)
 2. [Flutter](https://flutter.io/)
