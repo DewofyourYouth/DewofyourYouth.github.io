@@ -1,6 +1,11 @@
 name: Dew of your Youth
 markdown: kramdown
 highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 title: Dew of your Youth
 description: Yaakov Shore rambles on about life, tech, coding and banjo licks.
 author: Yaakov Shore
@@ -15,6 +20,3 @@ social:
     - https://www.linkedin.com/in/jacob-shore-2986b315/
     - https://github.com/
     - https://codepen.io/JacobShore/
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
