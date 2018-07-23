@@ -43,7 +43,8 @@ insert into blog_posts(
   author_id,
   title,
   content,
-  post_date) values (
+  post_date
+  ) values (
     1,
     "A Blog Title",
     "This is a blog post. Really, it is!",
