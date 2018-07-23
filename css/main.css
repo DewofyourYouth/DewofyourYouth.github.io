@@ -47,3 +47,11 @@ footer li {
 .posts {
     list-style: none;
 }
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 5px;
+}
