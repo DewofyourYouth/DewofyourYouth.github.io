@@ -55,3 +55,9 @@ table {
 td {
     padding: 5px;
 }
+
+@media only screen and (max-width: 900px){
+    nav ul li {
+        font-size: 1.2rem;
+    }
+}
