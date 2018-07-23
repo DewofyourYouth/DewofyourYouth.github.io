@@ -52,11 +52,13 @@ insert into blog_posts(
 author_id,
 title,
 content,
-post_date) values (
-  1, 
+post_date
+) values (
+  1,
   "Another Blog Title",
   "This is a blog post. Really, it is!",
-  "2018-07-27 07:35");
+  "2018-07-27 07:35"
+  );
 ```
 
 The `author_id` correspondes to the id in the `authors` table.
