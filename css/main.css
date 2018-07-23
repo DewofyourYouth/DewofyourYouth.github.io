@@ -57,7 +57,7 @@ td {
 }
 
 @media only screen and (max-width: 900px){
-    .navbar-nav .nav-link {
+    .navbar-nav .nav-link, #navbarNav {
             font-size: 2rem!important;
         }
 }
