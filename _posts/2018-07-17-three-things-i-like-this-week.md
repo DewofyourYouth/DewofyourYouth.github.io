@@ -2,6 +2,7 @@
 layout: post
 title: "3 Things I Like This Week"
 date: 2018-07-17
+comments: true
 ---
 
 Here is this week's list of things I like:
