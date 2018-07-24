@@ -2,6 +2,7 @@
 layout: post
 title: "This Is My First Post"
 date: 2018-07-15
+comments: true
 ---
 
 I've set up a Jekyll blog on Github. Hurray!
