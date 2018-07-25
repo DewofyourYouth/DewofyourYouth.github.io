@@ -26,7 +26,7 @@ I recently discovered Disqus and was able to use it to add a comments section to
 
 ### This Review of KaiOS by [Tech Alter](https://www.youtube.com/watch?v=OA_g2bQgOXY)
 
-I found this very interesting. I was totally unaware of that there was a viable third contender in on the mobile operating scene. I at some point was looking into creating apps and installing an open source OS on my phone. I was very bummed out when FirefoxOS died as I thought that was promising.
+I found this very interesting. I was totally unaware of that there was a viable third contender in on the mobile operating scene. I at some point was looking into creating apps for, as well as installing an open source OS on my phone. I was very bummed out when FirefoxOS died as I thought that was promising.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OA_g2bQgOXY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
