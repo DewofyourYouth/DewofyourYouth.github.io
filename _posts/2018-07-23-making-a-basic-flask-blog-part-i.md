@@ -83,4 +83,3 @@ The result should look like this:
 |                    |           |          |                     |                                     |
 
 Here is a link to the code on [DB Fiddle](https://www.db-fiddle.com/f/k3mRqJwFRWVoPEaKAqQyV3/2).
-
