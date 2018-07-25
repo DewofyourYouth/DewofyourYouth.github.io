@@ -32,4 +32,4 @@ I found this very interesting. I was totally unaware of that there was a viable 
 
 While I'm not excited about KaiOS being proprietary, I think this new "feature phone plus" market could be fertile grounds for developing/incubating a open source OS for mobile. My reasoning is that the KaiOS feature phone+ market is a new niche that the two giants (iOS and Android) haven't totally cornered yet, so there is room for a FOSS contender to emerge.
 
-I'd be interested to know your thoughts on this? Am I being naive? What haven't I considered?
+I'd be interested to know your thoughts on this. Am I being naive? What haven't I considered?
