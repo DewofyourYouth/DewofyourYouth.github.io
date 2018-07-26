@@ -12,7 +12,7 @@ In this part, we'll discuss setting up the database. I've never done a sqlite da
 First we'll make a table for the authors like this:
 
 ```sql
-create table authors(
+create table authors( # here we are creating a table in named authors
   id integer primary key autoincrement,
   firstname text not null,
   lastname text not null
