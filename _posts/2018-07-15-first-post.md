@@ -9,6 +9,6 @@ I've set up a Jekyll blog on Github. Hurray!
 
 I'll be customizing it and adding content soon.
 
-```python
+```python class:lineno
 print("Hello, Jekyll!")
 ```
