@@ -54,7 +54,7 @@ If you just want the files and not the text printed use -l like this:  grep -rl 
 
 ```bash
 history | grep "git commit" 
-history | grep "git commit" | grep "dotfile"  narrows it down further
+history | grep "git commit" | grep "dotfile"  # narrows it down further
 ```
 
 grep -P is for Perl compatible regular expressions on Linux
