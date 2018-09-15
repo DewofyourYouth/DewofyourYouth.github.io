@@ -5,7 +5,7 @@ date: 2018-09-16
 comments: true
 ---
 
-Here are some notes from a while back about GREP commands. Maybe it will be helpful.
+Here are some notes from a while back about GREP commands. Maybe it will be helpful to someone.
 
 GREP is a standard Unix/Linux bash program - it stands for **G**lobally search a **R**egular **E**xpression and **P**rint.
 
