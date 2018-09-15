@@ -57,5 +57,8 @@ history | grep "git commit"
 history | grep "git commit" | grep "dotfile"  # narrows it down further
 ```
 
+
 grep -P is for Perl compatible regular expressions on Linux
 grep -P "\d{3}-\d{3}-\d{4}" names.txt returns phone numbers in names.txt (3 digits then "-" then another 3 d then "-" then 4 d).
+
+Soon I'll publish my notes on Regular Expressions and some more advanced examples.
