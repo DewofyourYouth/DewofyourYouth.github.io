@@ -13,7 +13,7 @@ comments: true
 | \d      | any digit 0-9                  | \D     | anything not a digit    |
 | \w      | any word                       | \W     | anything not a word     |
 | \s      |  whitespace                    | \S     | not whitespace          |
-| \b      |  word boundary (starts word)   | \B     | not word boundary       |  
+| \b      |  word boundary (starts word)   | \B     | not word boundary       |
 
  
 example = Ha HaHa  
