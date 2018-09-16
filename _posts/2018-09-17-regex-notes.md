@@ -37,10 +37,10 @@ phone number 123-456-7890 or 123.456.7890
 on 800 or 900 numbers
 [89]00[-.]\d\d\d[-.]\d\d\d\d
 
-match between
-[0-9] matches numbers 0-9
-[a-zA-Z] matches all letters
-in character sets a ^ matches everything not in the string
+match between  
+[0-9] matches numbers 0-9  
+[a-zA-Z] matches all letters  
+in character sets a ^ matches everything  not in the string  
 example [^b]at : **cat mat** bat **sat**
 
 ### Quantifiers
