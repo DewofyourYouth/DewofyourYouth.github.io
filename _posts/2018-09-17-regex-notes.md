@@ -9,6 +9,13 @@ comments: true
 \d = any digit 0-9  
 \D = anything not a digit
 
+| Symbol        | Use                            |
+| ------------- |:------------------------------:|
+| .             | any character except new line  |
+| \d            | any digit 0-9                  |
+| \D            | anything not a digit           |
+
+
 \w = any word  
 \W = anything not a word
 
