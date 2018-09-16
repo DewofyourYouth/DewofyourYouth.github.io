@@ -41,7 +41,7 @@ match between
 [0-9] matches numbers 0-9
 [a-zA-Z] matches all letters
 in character sets a ^ matches everything not in the string
-example [^b]at : cat mat bat sat
+example [^b]at : **cat mat** bat **sat**
 
 ### Quantifiers
 
