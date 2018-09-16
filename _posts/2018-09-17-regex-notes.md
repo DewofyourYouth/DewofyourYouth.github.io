@@ -69,7 +69,7 @@ https?://(www\.)?\w+\.\w+
 #### To Group
 
 ```bash
-\\ Group:     1    2     3
+# Group:     1    2     3
 https?://(www\.)?(\w+)(\.\w+)
 ```
 
