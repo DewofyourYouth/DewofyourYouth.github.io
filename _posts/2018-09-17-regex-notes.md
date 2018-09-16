@@ -16,6 +16,8 @@ comments: true
 | \b      |  word boundary (starts word)   | \B     | not word boundary       |
 
 
+<hr>
+
 example = Ha HaHa  
 
 **\b**Ha matches     : **Ha Ha**Ha  
