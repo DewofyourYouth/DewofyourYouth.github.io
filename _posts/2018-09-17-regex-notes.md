@@ -5,6 +5,8 @@ date: 2018-09-17
 comments: true
 ---
 
+Here are some basic regex symbols to use (often the opposite of something is expressed by using it's capital).
+
 | Symbol  | Use                            | Symbol | Use                     | 
 | ------- | ------------------------------ | ------ | ----------------------  |
 | .       | any character except new line  |
