@@ -55,7 +55,7 @@ M(r|s|rs)\.?\s[A-Z]\w*
 
 ### Emails Example:
 
-[a-zA-Z0-9.-]+@[a-zA-Z-]+\.(com|edu|net|io)
+[a-zA-Z0-9.-]+@[a-zA-Z-]+\.(com|edu|net|io)  
 [a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9.]+
 
 ### URL Example
@@ -73,11 +73,11 @@ In replace $2$3 (or \2\3) will return group 2 and 3
 
 ### Overlapping Patterns
 
-search for patterns of zeros surrounded by ones:
-(10+1)
-11110001001111 : match 1 = 10001
+search for patterns of zeros surrounded by ones:  
+(10+1)  
+11110001001111 : match 1 = 10001  
 
-(?=(10+1))
-11110001001111 : match 1 = 10001 match 2 = 1001
+(?=(10+1))  
+11110001001111 : match 1 = 10001 match 2 = 1001  
 
 Search Before (?<=pattern)
