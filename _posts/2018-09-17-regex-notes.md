@@ -14,9 +14,8 @@ comments: true
 | \w      | any word                       | \W     | anything not a word     |
 | \s      |  whitespace                    | \S     | not whitespace          |
 | \b      |  word boundary (starts word)   | \B     | not word boundary       |  
- ---
 
-
+ 
 example = Ha HaHa  
 
 **\b**Ha matches     : **Ha Ha**Ha  
