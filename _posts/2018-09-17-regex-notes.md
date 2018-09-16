@@ -5,22 +5,13 @@ date: 2018-09-17
 comments: true
 ---
 
-.    = any character except new line  
-\d = any digit 0-9  
-\D = anything not a digit
-
-| Symbol        | Use                            |
-| ------------- | ------------------------------ |
+| Symbol        | Use                            | Symbol        | Use                     | 
+| ------------- | ------------------------------ | ------------- | ----------------------  |
 | .             | any character except new line  |
-| \d            | any digit 0-9                  |
-| \D            | anything not a digit           |
-
-
-\w = any word  
-\W = anything not a word
-
-\s = whitspace  
-\S = not whitespace
+| \d            | any digit 0-9                  | \D            | anything not a digit    |
+| \w            | any word                       | \W            | anything not a word     |
+| \s            |  whitespace                    | \S            | not whitespace          |
+| \b            |  word boundry (starts word)    | \B           | not word boundry         |
 
 \b = word boundry (starts word)  
 \B = not word boundry
