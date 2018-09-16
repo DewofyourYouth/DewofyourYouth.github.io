@@ -10,7 +10,7 @@ comments: true
 \D = anything not a digit
 
 | Symbol        | Use                            |
-| ------------- |:------------------------------:|
+| ------------- | ------------------------------ |
 | .             | any character except new line  |
 | \d            | any digit 0-9                  |
 | \D            | anything not a digit           |
