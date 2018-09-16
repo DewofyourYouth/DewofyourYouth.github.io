@@ -19,15 +19,15 @@ comments: true
 \B = not word boundry
 
 example = Ha HaHa  
-\bHa matches     : Ha HaHa  
-\bHa\b matches : Ha HaHa  
-\BHa matches     : Ha HaHa  
+\bHa matches     : **Ha Ha**Ha  
+\bHa\b matches : **Ha** HaHa  
+\BHa matches     : Ha Ha**Ha**  
 
 ^ = beginning of string  
 $ = end of string
 
-^Ha matches : Ha HaHa  
-Ha$ matches : Ha HaHa
+^Ha matches : **Ha** HaHa  
+Ha$ matches : Ha Ha**Ha**
 
 ### Character Set = []
 
