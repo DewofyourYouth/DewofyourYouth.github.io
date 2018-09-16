@@ -17,9 +17,9 @@ comments: true
 
 example = Ha HaHa  
 
-\bHa matches     : **Ha Ha**Ha  
-\bHa\b matches : **Ha** HaHa  
-\BHa matches     : Ha Ha**Ha**  
+**\b**Ha matches     : **Ha Ha**Ha  
+**\b**Ha**\b** matches : **Ha** HaHa  
+**\B**Ha matches     : Ha Ha**Ha**  
 
 ^Ha matches : **Ha** HaHa  
 Ha$ matches : Ha Ha**Ha**
