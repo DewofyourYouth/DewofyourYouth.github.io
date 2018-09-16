@@ -40,9 +40,9 @@ example [^b]at : **cat mat** bat **sat**
 
 ### Quantifiers
 
-\* = 0 or more
+\* = 0 or more  
 \+ = 1 or more
-? = 0 or 1
+? = 0 or 1  
 {3} = exact number
 {3,4} = range of numbers
 
