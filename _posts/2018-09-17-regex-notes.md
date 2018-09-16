@@ -5,33 +5,33 @@ date: 2018-09-17
 comments: true
 ---
 
-.    = any character except new line
-\d = any digit 0-9
+.    = any character except new line  
+\d = any digit 0-9  
 \D = anything not a digit
 
-\w = any word
+\w = any word  
 \W = anything not a word
 
-\s = whitspace
+\s = whitspace  
 \S = not whitespace
 
-\b = word boundry (starts word)
+\b = word boundry (starts word)  
 \B = not word boundry
 
-example = Ha HaHa
-\bHa matches     : Ha HaHa
-\bHa\b matches : Ha HaHa
-\BHa matches     : Ha HaHa
+example = Ha HaHa  
+\bHa matches     : Ha HaHa  
+\bHa\b matches : Ha HaHa  
+\BHa matches     : Ha HaHa  
 
-^ = beginning of string
+^ = beginning of string  
 $ = end of string
 
-^Ha matches : Ha HaHa
+^Ha matches : Ha HaHa  
 Ha$ matches : Ha HaHa
 
 ### Character Set = []
 
-phone number 123-456-7890 or 123.456.7890
+phone number 123-456-7890 or 123.456.7890  
 \d\d\d[-.]\d\d\d[-.]\d\d\d\d
 
 on 800 or 900 numbers
