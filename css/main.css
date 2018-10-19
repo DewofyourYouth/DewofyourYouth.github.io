@@ -65,13 +65,13 @@ td {
     width: 60px;
 }
 
-.nav-item:hover {
+.navbar-brand img:hover, .nav-item:hover {
     transform: rotate(10deg);
     transition-duration: 300ms;
 }
 
 a.nav-link:hover {
-    font-size: 110%;
+    font-size: 150%;
     color: orangered !important;
 }
 
