@@ -16,6 +16,10 @@
     font-family: 'Press Start 2P', cursive;
 }
 
+.navbar-brand img {
+    border-radius: 5px;
+}
+
 .posts {
     list-style: none;
 }
