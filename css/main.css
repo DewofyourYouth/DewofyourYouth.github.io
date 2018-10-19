@@ -60,7 +60,7 @@ td {
     padding: 5px;
 }
 
-.navbar-brand img {
+.navbar-brand img:hover {
     height: 110%;
     width: 110%;
 }
