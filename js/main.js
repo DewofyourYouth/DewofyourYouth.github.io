@@ -4,7 +4,7 @@ $('.navbar-brand img').hover(function(){
     $(this).removeClass('animated shake');
 });
 
-$('.navbar-link a').hover(function(){
+$('.navbar-link').hover(function(){
     $(this).addClass('animated shake');
 }, function(){
     $(this).removeClass('animated shake');
