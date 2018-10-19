@@ -65,7 +65,7 @@ td {
     width: 60px;
 }
 
-.nav-item {
+.nav-item a.nav-link:hover {
     transform: rotate(10deg);
     transition-duration: 300ms;
 }
