@@ -61,8 +61,8 @@ td {
 }
 
 .navbar-brand img:hover {
-    height: 110%;
-    width: 110%;
+    height: 70px;
+    width: 70px;
 }
 
 a.nav-link:hover {
