@@ -65,9 +65,12 @@ td {
     width: 60px;
 }
 
-a.nav-link:hover {
-    transform: rotate(10deg) !important;
+.nav-item {
+    transform: rotate(10deg);
     transition-duration: 300ms;
+}
+
+a.nav-link:hover {
     font-size: 110%;
     color: orangered !important;
 }
