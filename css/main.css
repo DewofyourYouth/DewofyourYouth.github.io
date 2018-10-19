@@ -60,6 +60,10 @@ td {
     padding: 5px;
 }
 
+.navbar-brand img {
+    size: 110%;
+}
+
 a.nav-link:hover {
     transform: rotate(20deg);
     transition-duration: 300ms;
