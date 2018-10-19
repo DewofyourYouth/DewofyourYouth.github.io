@@ -65,7 +65,7 @@ td {
     width: 60px;
 }
 
-.navbar-brand img:hover, .nav-item:hover {
+.navbar-brand:hover, .nav-item:hover {
     transform: rotate(10deg);
     transition-duration: 300ms;
 }
