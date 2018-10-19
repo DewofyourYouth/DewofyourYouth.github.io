@@ -62,6 +62,7 @@ td {
 
 a.nav-link:hover {
     transform: rotate(20deg);
+    transition-duration: 300ms;
 }
 
 @media only screen and (max-width: 900px){
