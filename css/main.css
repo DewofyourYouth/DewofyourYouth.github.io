@@ -19,6 +19,31 @@
     border-radius: 5px;
 }
 
+.navbar-brand img:hover {
+    height: 60px;
+    width: 60px;
+}	
+
+.bg-light {
+    font-size: 24px!important;
+}
+
+.navbar, .nav-link {
+font-size: 24px;
+}
+
+
+
+.navbar-brand:hover, .nav-item:hover {
+    transform: rotate(10deg);
+    transition-duration: 300ms;
+}
+
+a.nav-link:hover {
+    font-size: 150%;
+    color: orangered !important;
+}
+
 .posts {
     list-style: none;
 }
@@ -59,20 +84,7 @@ td {
     padding: 5px;
 }
 
-.navbar-brand img:hover {
-    height: 60px;
-    width: 60px;
-}
 
-.navbar-brand:hover, .nav-item:hover {
-    transform: rotate(10deg);
-    transition-duration: 300ms;
-}
-
-a.nav-link:hover {
-    font-size: 150%;
-    color: orangered !important;
-}
 
 @media only screen and (max-width: 900px){
     .bg-light {
