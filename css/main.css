@@ -95,9 +95,12 @@ td {
             font-size: 35px;
         }
 
+        a.nav-link:hover {
+            font-size: 35px;
+        }
+
         .nav-item:hover {
             transform: none;
-            font-size: 35px;
         }
         
 }
