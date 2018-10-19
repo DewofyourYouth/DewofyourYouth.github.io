@@ -69,6 +69,7 @@ a.nav-link:hover {
     transform: rotate(20deg);
     transition-duration: 300ms;
     font-size: 110%;
+    color: orangered;
 }
 
 @media only screen and (max-width: 900px){
