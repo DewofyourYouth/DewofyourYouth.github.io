@@ -5,5 +5,8 @@ linenos: true
 title: Dew of your Youth
 description: Yaakov Shore rambles on about life, tech, coding and banjo licks.
 author: Yaakov Shore
+plugins:
+  - jekyll-feed
 twitter:
   username: dewofyouryouth
+
