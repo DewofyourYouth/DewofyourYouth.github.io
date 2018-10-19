@@ -60,7 +60,7 @@ td {
     padding: 5px;
 }
 
-.nav-link a:hover {
+a.nav-link:hover {
     transform: rotate(20deg);
 }
 
