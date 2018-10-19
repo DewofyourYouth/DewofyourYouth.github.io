@@ -94,4 +94,9 @@ td {
         a.nav-link {
             font-size: 200%;
         }
+
+        .nav-item:hover {
+            transform: none;
+        }
+        
 }
