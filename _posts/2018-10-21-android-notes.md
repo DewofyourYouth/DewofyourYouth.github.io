@@ -21,9 +21,9 @@ XML stands for e**X**tensible **M**arkup **L**anguage. XML is similar to HTML.
 
 #### Some examples of views:
 
-- TextView: a view with text.
-- ImageView: a view for an image.
-- Button: a view for a button.
+- `TextView`: a view with text.
+- `ImageView`: a view for an image.
+- `Button`: a view for a button.
 
 They are written with "tags" which can self closing or contain "children".
 
@@ -57,9 +57,9 @@ This is probably not a layout you'll ever make, but serves and as example.
 
 The size measurement used is called **DP** which stands for **D**ensity Independent **P**ixel. Hard coding the size in dps is not always ideal. Some other ways to set the size are:
 
-1. wrap_content - sets the parent view to contain the child view.
-2. match_parent - sets the child view to fill the parent view.
-3. layout_weight - sets the children to fill up the layout relative to the weight given.
+1. `wrap_content` - sets the parent view to contain the child view.
+2. `match_parent` - sets the child view to fill the parent view.
+3. `layout_weight` - sets the children to fill up the layout relative to the weight given.
 
 Example of `wrap_content`:
 
