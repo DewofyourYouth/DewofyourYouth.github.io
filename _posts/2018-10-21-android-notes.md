@@ -71,7 +71,7 @@ Example of `wrap_content`:
     android:scaleType="centerCrop" />
 ```
 
-Looks like [this](https://labs.udacity.com/android-visualizer/?_ga=1.81874070.1429176437.1469538580#/android/text-view).
+Looks like [this](https://labs.udacity.com/android-visualizer/?_ga=1.81874070.1429176437.1469538580#/android/text-view){target="_blank  "}.
 
 All of these will be explained later.
 
