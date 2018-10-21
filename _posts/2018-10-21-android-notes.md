@@ -8,6 +8,9 @@ comments: true
 #### Some Notes For Android Development (Beginners)
 
 These notes are about developing native apps for Android in XML and Java.
+
+I'm trascribing this from my written notes - so if you come to the page and see that not much is here - I will be adding to it periodically.
+
 ## Views
 ---
 
@@ -59,3 +62,9 @@ The size measurement used is called **DP** which stands for **D**ensity Independ
 3. layout-weight - sets the children to fill up the layout relative to the weight given.
 
 All of these will be explained later.
+
+## View Groups
+
+XML documents can only have one root view. If you need more than one view - you use ViewGroups. Views are referred to - relative to each other as either "parent" views, "child" views and "sibling" views.
+
+The two main Android ViewGroups are **RelativeLayout** and **LinearLayout**.
