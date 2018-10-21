@@ -61,6 +61,21 @@ The size measurement used is called **DP** which stands for **D**ensity Independ
 2. match-parent - sets the child view to fill the parent view.
 3. layout-weight - sets the children to fill up the layout relative to the weight given.
 
+Example of `wrap_content`:
+
+```xml
+<LinearLayout
+    android:layout_width="500dp"
+    android:layout_height="500dp"
+    android:orientation="vertical">
+    <ImageView
+        android:src="@drawable/cake"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:scaleType="centerCrop" />
+</LinearLayout>
+```
+
 All of these will be explained later.
 
 ## View Groups
