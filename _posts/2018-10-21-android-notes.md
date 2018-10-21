@@ -7,9 +7,9 @@ comments: true
 
 #### Some Notes For Android Development (Beginners)
 
-## Views
-
 These notes are about developing native apps for Android in XML and Java.
+## Views
+---
 
 The layout in an Android app is made of views. Views are  boxes on the screen. The views are generally made in XML.
 
