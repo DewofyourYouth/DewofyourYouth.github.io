@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Android Notes: Part One"
+title: "Android Notes"
 date: 2018-10-21
 comments: true
 ---
