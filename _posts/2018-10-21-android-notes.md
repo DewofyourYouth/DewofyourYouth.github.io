@@ -76,6 +76,8 @@ Example of `wrap_content`:
 </LinearLayout>
 ```
 
+Looks like [this](https://labs.udacity.com/android-visualizer/?_ga=1.81874070.1429176437.1469538580#/android/text-view).
+
 All of these will be explained later.
 
 ## View Groups
