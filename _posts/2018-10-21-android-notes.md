@@ -5,7 +5,7 @@ date: 2018-10-21
 comments: true
 ---
 
-# Some Notes For Android Development (Beginners)
+#### Some Notes For Android Development (Beginners)
 
 ## Views
 
