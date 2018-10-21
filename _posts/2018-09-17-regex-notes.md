@@ -7,7 +7,7 @@ comments: true
 
 Here are some basic regex symbols to use (often the opposite of something is expressed by using it's capital). This is basically a cheatsheet, in the next post I will show some real word applications of grep and regular expressions.
 
-| Symbol  | Use                            | Symbol | Use                     | 
+| Symbol  | Use                            | Symbol | Use                     |
 | ------- | ------------------------------ | ------ | ----------------------  |
 | .       | any character except new line  |
 | ^       | beginning of string            |
