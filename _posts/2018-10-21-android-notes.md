@@ -11,6 +11,7 @@ These notes are about developing native apps for Android in XML and Java.
 ## Views
 ---
 
+
 The layout in an Android app is made of views. Views are  boxes on the screen. The views are generally made in XML.
 
 XML stands for e**X**tensible **M**arkup **L**anguage. XML is similar to HTML.
@@ -48,4 +49,13 @@ Example of parent and child tag:
 </LinearLayout>
 ```
 
+
 This is probably not a layout you'll ever make, but serves and as example.
+
+The size measurement used is called **DP** which stands for **D**ensity Independent **P**ixel. Hard coding the size in dps is not always ideal. Some other ways to set the size are:
+
+1. wrap-content - sets the parent view to contain the child view.
+2. match-parent - sets the child view to fill the parent view.
+3. layout-weight - sets the children to fill up the layout relative to the weight given.
+
+All of these will be explained later.
