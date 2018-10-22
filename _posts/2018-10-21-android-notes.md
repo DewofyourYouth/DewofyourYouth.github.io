@@ -9,13 +9,13 @@ comments: true
 
 These notes are about developing native apps for Android in XML and Java.
 
-Documentation for android development <a href="https://developer.android.com" target="_blank">here</a>
+Documentation for android development [here](https://developer.android.com)
 
 I'm trascribing this from my written notes - so if you come to the page and see that not much is here - I will be adding to it periodically.
 
 ## Views
----
 
+---
 
 The layout in an Android app is made of views. Views are  boxes on the screen. The views are generally made in XML.
 
@@ -49,9 +49,9 @@ Example of parent and child tag:
     android:orientation="vertical">
     <TextView
         android:text="Hello, Android!"
-    	android:background="@android:color/darker_gray"
-    	android:layout_width="150dp"
-    	android:layout_height="75dp" />
+        android:background="@android:color/darker_gray"
+        android:layout_width="150dp"
+        android:layout_height="75dp" />
 </LinearLayout>
 ```
 
@@ -85,4 +85,4 @@ XML documents can only have one root view. If you need more than one view - you 
 
 The two main Android ViewGroups are **RelativeLayout** and **LinearLayout**.
 
-**LinearLayout** can either have an orientation of `vertical` ot `horizontal`. 
+**LinearLayout** can either have an orientation of `vertical` ot `horizontal`.
