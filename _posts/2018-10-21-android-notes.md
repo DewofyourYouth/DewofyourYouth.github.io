@@ -26,6 +26,7 @@ XML stands for e**X**tensible **M**arkup **L**anguage. XML is similar to HTML.
 - `TextView`: a view with text.
 - `ImageView`: a view for an image.
 - `Button`: a view for a button.
+- `EditText`: a view for text the user can edit (input).
 
 They are written with "tags" which can self closing or contain "children".
 
