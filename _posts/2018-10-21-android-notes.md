@@ -11,7 +11,7 @@ These notes are about developing native apps for Android in XML and Java.
 
 Documentation for android development [here](https://developer.android.com)
 
-I'm trascribing this from my written notes - so if you come to the page and see that not much is here - I will be adding to it periodically.
+I'm transcribing this from my written notes - so if you come to the page and see that not much is here - I will be adding to it periodically.
 
 ## Views
 
