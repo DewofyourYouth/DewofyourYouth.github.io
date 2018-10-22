@@ -9,6 +9,8 @@ comments: true
 
 These notes are about developing native apps for Android in XML and Java.
 
+Documentation for android development [here](https://developer.android.com){:target="_blank"}
+
 I'm trascribing this from my written notes - so if you come to the page and see that not much is here - I will be adding to it periodically.
 
 ## Views
@@ -71,6 +73,9 @@ Example of `wrap_content`:
     android:scaleType="centerCrop" />
 ```
 
+`center` = centers `ImageView`.
+`centerCrop` = centers and scales.
+
 All of these will be explained later.
 
 ## View Groups
@@ -78,3 +83,5 @@ All of these will be explained later.
 XML documents can only have one root view. If you need more than one view - you use ViewGroups. Views are referred to - relative to each other as either "parent" views, "child" views and "sibling" views.
 
 The two main Android ViewGroups are **RelativeLayout** and **LinearLayout**.
+
+**LinearLayout** can either have an orientation of `vertical` ot `horizontal`. 
