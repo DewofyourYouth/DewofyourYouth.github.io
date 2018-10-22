@@ -9,7 +9,7 @@ comments: true
 
 These notes are about developing native apps for Android in XML and Java.
 
-Documentation for android development <a href="https://developer.android.com" target="_blank">Here</a>
+Documentation for android development <a href="https://developer.android.com" target="_blank">here</a>
 
 I'm trascribing this from my written notes - so if you come to the page and see that not much is here - I will be adding to it periodically.
 
