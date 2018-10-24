@@ -5,6 +5,8 @@ date: 2018-10-24
 comments: true
 ---
 
+A list of some basic terms and jargon related to hacking and computer security.
+
 - white hat / gray hat / black hat
     *  white hat: ethical and law abiding hacker
     * gray hat: may violate some laws and typical ethical standards - but doesn't have malicious intent typical of black hat hackers.
