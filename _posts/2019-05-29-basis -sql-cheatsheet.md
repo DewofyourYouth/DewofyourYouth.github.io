@@ -73,7 +73,7 @@ These vary a bit between diffent DB systems
 - BOOLEAN, BOOL - True or False
 - DATE, DATETIME, TIMESTAMP etc.
 
-### SELECT Queries
+### FINDING STUFF (SELECT Queries)
 
 To retrieve data - use SELECT queries. Most DBs are pretty much the same with this.
 
@@ -138,8 +138,32 @@ ORDER BY
 
 ### UPDATE
 
+```sql
+UPDATE <table>
+SET <column>=<value>
+WHERE <condition/s>;
+```
+
 ### DELETE
+```sql
+DELETE FROM <table>
+WHERE <condition/s>;
+```
 
 ### JOINS
 
+#### INNER
+
+#### FULL
+
+#### LEFT
+
+#### RIGHT
+
+#### CROSS
+
+### SUBQUERIES
+
 ### VIEWS
+
+### INDEXES
