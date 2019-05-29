@@ -145,6 +145,7 @@ WHERE <condition/s>;
 ```
 
 ### DELETE
+
 ```sql
 DELETE FROM <table>
 WHERE <condition/s>;
