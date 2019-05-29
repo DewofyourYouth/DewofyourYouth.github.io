@@ -99,8 +99,8 @@ To select all columns an astrix is subsituted for the column names - like this:
 
 ```sql
 SELECT *
-FROM <table/tables>;
 ```
+FROM <table/tables>;
 
 ### Common SQL Functions
 
@@ -115,6 +115,23 @@ FROM <table/tables>;
 ```sql
 SELECT DISTINCT <column>
 FROM <table>;
+```
+
+
+```sql
+SELECT DISTINCT <column1>, <column2>
+FROM <table>;
+```
+
+```sql
+SELECT
+   DISTINCT ON (<column1>) <column_alias>,
+   <column2>
+FROM
+   <table>
+ORDER BY
+   <column1>,
+   <column2>;
 ```
 
 ### LIKE
