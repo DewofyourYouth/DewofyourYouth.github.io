@@ -155,9 +155,15 @@ WHERE <condition/s>;
 
 #### INNER
 
+Only joins when there are rows that are joined from both tables.
+
 #### FULL
 
+Returns all rows from both tables.
+
 #### LEFT
+
+
 
 #### RIGHT
 
