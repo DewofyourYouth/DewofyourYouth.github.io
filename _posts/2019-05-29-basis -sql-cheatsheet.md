@@ -63,3 +63,14 @@ CREATE TABLE <table-name>(
 );
 ```
 
+### Basic Data Type
+
+These vary a bit between diffent DB systems
+
+- VARCHAR(N) - basically a string (you provide the max number of charachters as an argument.)
+- TEXT - a VARCHAR with no limit
+- INT, INTEGER - a whole integer
+- FLOAT - a floating point number (decimal)
+- TINYINT - basically 0 or 1 - this is how MySQL supports booleans
+- BOOLEAN, BOOL - True or False
+- DATE
