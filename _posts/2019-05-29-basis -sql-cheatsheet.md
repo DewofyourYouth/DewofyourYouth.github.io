@@ -123,7 +123,7 @@ SELECT DISTINCT <column1>, <column2>
 FROM <table>;
 ```
 
-```sql~
+```sql
 SELECT
    DISTINCT ON (<column1>) <column_alias>,
    <column2>
