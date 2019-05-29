@@ -72,3 +72,57 @@ These vary a bit between diffent DB systems
 - TINYINT - basically 0 or 1 - this is how MySQL supports booleans, if you put in a BOOLEAN column - it will still come out as TINYINT
 - BOOLEAN, BOOL - True or False
 - DATE, DATETIME, TIMESTAMP etc.
+
+### SELECT Queries
+
+To retrieve data - use SELECT queries. Most DBs are pretty much the same with this.
+
+Basic syntax for SELECT queries is:
+
+```sql
+SELECT <column/columns>
+FROM <table/tables>;
+```
+
+With common additions like
+
+```sql
+SELECT <column/s>
+FROM <column_name/s>
+WHERE <condition/s> AND/OR
+GROUP BY <column_name/s>
+ORDER BY <column_name/s> ASC/DESC
+LIMIT <NUMBER>;
+```
+
+To select all columns an astrix is subsituted for the column names - like this: 
+
+```sql
+SELECT *
+FROM <table/tables>;
+```
+
+### Common SQL Functions
+
+- COUNT
+- MIN
+- MAX
+- AVG
+- SUM
+
+### DISTINCT
+
+```sql
+SELECT DISTINCT <column>
+FROM <table>;
+```
+
+### LIKE
+
+### UPDATE
+
+### DELETE
+
+### JOINS
+
+### VIEWS
