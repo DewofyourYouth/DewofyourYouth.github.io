@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Making A Basic Flask Blog: Part I"
+title: "SQL (Structured Query Language) Basics"
 date: 2019-05-29
 comments: true
 ---
-
-## SQL (Structured Query Language) Basics
 
 Every query must end with a semi-colon. 
 
@@ -71,6 +69,6 @@ These vary a bit between diffent DB systems
 - TEXT - a VARCHAR with no limit
 - INT, INTEGER - a whole integer
 - FLOAT - a floating point number (decimal)
-- TINYINT - basically 0 or 1 - this is how MySQL supports booleans
+- TINYINT - basically 0 or 1 - this is how MySQL supports booleans, if you put in a BOOLEAN column - it will still come out as TINYINT
 - BOOLEAN, BOOL - True or False
-- DATE
+- DATE, DATETIME, TIMESTAMP etc.
