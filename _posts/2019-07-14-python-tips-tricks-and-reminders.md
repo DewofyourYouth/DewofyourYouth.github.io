@@ -222,3 +222,19 @@ Prints:
 ```python
 make_positive = map(lambda x: abs(x), nums_list) # [1, 5, 6, 6, 34, 108, 4, 22]
 ```
+
+## 13) List Comprehension
+
+```python
+nums_list = [1, 5, -6, 6, -34, 108, 4, -22]
+
+b_positive = [num for num in nums_list if num > 0] # [1, 5, 6, 108, 4]
+```
+
+or... 
+
+```python
+nums_list = [1, 5, -6, 6, -34, 108, 4, -22]
+
+make_positive = [abs(num) for num in nums_list] # [1, 5, 6, 6, 34, 108, 4, 22]
+```
