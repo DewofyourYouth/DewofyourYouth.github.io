@@ -49,7 +49,7 @@ a.nav-link:hover {
 }
 
 .post h2 {
-    padding: 10px, 0;
+    padding: 10px, 0px !important;
 }
 
 .posts h2 a {
