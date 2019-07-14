@@ -5,7 +5,7 @@ date: 2019-07-14
 comments: true
 ---
 
-## Table of Contents
+### Table of Contents
 
  - [Use Ternary Conditionals For Simple Checking](#1-use-ternary-conditionals-for-simple-checking)
  - [Separate Large Numbers with Underscores](#2-separate-large-numbers-with-underscores)
