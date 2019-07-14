@@ -5,6 +5,22 @@ date: 2019-07-14
 comments: true
 ---
 
+## Table of Contents
+
+ - [Use Ternary Conditionals For Simple Checking](#1-use-ternary-conditionals-for-simple-checking)
+ - [Separate Large Numbers with Underscores](#2-separate-large-numbers-with-underscores)
+ - [Use Context Managers](3-use-context-managers)
+ - [Use Enumerate (Not Counter Variable)](4-use-enumerate-not-counter-variable)
+ - [Use The Zip Function](5-use-the-zip-function)
+ - [Tuple Unpacking](6-tuple-unpacking)
+ - [setattr / getattr](7-setattr--getattr)
+ - [Help](8-help)
+ - [Use .get() For Dictionaries](9-use-get-for-dictionaries)
+ - [For Loops Have Else](10-for-loops-have-else)
+ - [NamedTuples - Faster Than Making Classes Manually (but immutable - like tuples)](11-namedtuples---faster-than-making-classes-manually-but-immutable---like-tuples)
+ - [Lambda Functions](12-lambda-functions)
+ - [List Comprehension](13-list-comprehension)
+
 ## 1) Use Ternary Conditionals For Simple Checking
 
 ```python
