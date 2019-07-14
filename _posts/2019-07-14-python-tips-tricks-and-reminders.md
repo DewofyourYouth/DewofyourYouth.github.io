@@ -5,8 +5,6 @@ date: 2019-07-14
 comments: true
 ---
 
-# Python Tips, Tricks &amp; Reminders
-
 ## 1) Use Ternary Conditionals For Simple Checking
 
 ```python
