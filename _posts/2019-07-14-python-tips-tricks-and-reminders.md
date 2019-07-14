@@ -190,7 +190,7 @@ my_cake.price == 10.99 # AttributeError: can't set attribute
 
 ## 12) Lambda Functions
 
-### Filter
+### Filter:
 
 ```python
 nums_list = [1, 5, -6, 6, -34, 108, 4, -22]
