@@ -238,3 +238,4 @@ nums_list = [1, 5, -6, 6, -34, 108, 4, -22]
 
 make_positive = [abs(num) for num in nums_list] # [1, 5, 6, 6, 34, 108, 4, 22]
 ```
+There's also an example with zip in [tip #5](#5-use-the-zip-function)
