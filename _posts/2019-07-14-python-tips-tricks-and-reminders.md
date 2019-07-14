@@ -127,7 +127,7 @@ In python repl:
 my_dict = {
     'key1': 'cheesecake',
     'key2': 52,
-    'key4': 'James',
+    'key4': 'James', # see how we skipped 'key3' - nothing gets by you!!!
     'key5': True,
 }
 
