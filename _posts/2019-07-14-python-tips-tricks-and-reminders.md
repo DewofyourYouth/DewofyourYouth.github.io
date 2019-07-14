@@ -160,7 +160,7 @@ def find_needle(needle, haystack):
     """
     for name in haystack:
         if needle == name:
-            return True
+          return True
     else:
         return False
 
