@@ -28,12 +28,11 @@ To include [formating in answer](https://docs.python.org/3/library/string.html#f
 print(f'{total:,}') # prints 100,100,000,000
 ```
 
-
 ## 3) Use Context Managers
 
 ```python
 with open('somefile.txt', 'r') as f:
-	file_contents = f.read()
+    file_contents = f.read()
 
 words = file_contents.split(' ')
 word_count = len(words)
@@ -42,10 +41,9 @@ print(word_count)
 
 ## 4) Use Enumerate (Not Counter Variable)
 
-
 ```python
 for i, item in enumerate(list_name):
-	print(i, item)
+    print(i, item)
 
 """
 Prints:
@@ -60,7 +58,7 @@ If you want to start from a number other that 1 you can put that number as a sec
 
 ```python
 for i, item in enumerate(list_name, 1):
-	print(i, item)
+    print(i, item)
 
 """
 Prints:
@@ -97,7 +95,7 @@ a, b, *c, d = 1, 2, 3, 4, 5 # a=1, b=2, c = [3, 4] d=5
 
 ```python
 class Person:
-	pass
+    pass
 
 person = Person()
 
@@ -113,7 +111,7 @@ print(first) # 'Jacob'
 
 ```
 
-## 8) Help 
+## 8) Help
 
 In python repl:
 
@@ -139,16 +137,17 @@ print(my_dict.get('key3')) # will return NoneType instead.
 ```
 
 ## 10) For Loops Have Else
+
 ```python
 needle = 'Jerry'
 haystack = ['Billy', 'MaryAnne', 'Robert', 'Susy']
 
 for name in haystack:
-	if needle == name:
-		print('Found')
-		break
+    if needle == name:
+        print('Found')
+        break
 else:
-	print('Not found')
+    print('Not found')
 ```
 
 or in a function...
@@ -162,7 +161,7 @@ def find_needle(needle, haystack):
     for name in haystack:
         if needle == name:
             return True
-    else: 
+    else:
         return False
 
 find_needle(needle, haystack) # returns False
