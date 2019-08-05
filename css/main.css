@@ -1,5 +1,6 @@
 @import url(vim.css);
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
 .container-fluid {
     padding: 0;
@@ -10,6 +11,7 @@ body {
 }
 
 blockquote {
+    font-family: 'Roboto Slab', serif;
     background: #f9f9f9;
     border-left: 10px solid #ccc;
     margin: 1.5em 10px;
