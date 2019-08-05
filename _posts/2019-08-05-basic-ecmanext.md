@@ -15,4 +15,4 @@ Come to find out, he's written a new book on JavaScript called ["How JavaScript 
 
 > Compared to a decade ago, I think less of the language is good, but I think that good part is better.
 
-So, suffice it to say, he thinks it's a mixed bag. I'm going to have to read through his book for specifics on what he thinks about it. So I thought it would be interesting to first write down my thoughts and opinions and then compare notes to what I find out there.
+So, suffice it to say, he thinks it's a mixed bag. I'm going to have to read through his book for specifics on what he thinks about it. So I thought it would be interesting to first write down my thoughts and opinions and then compare notes to what I find out reading Crockwell's.
