@@ -27,4 +27,12 @@ So hoisting and the global scope were kind of bad in that the produced buggy res
 
 ### Arrow Functions
 
-I like them.
+I like them. Lexical this (Placeholder)
+
+### Template Literals
+
+Love them. (Placeholder)
+
+### Spread Operator
+
+### Default Parameter Handling
