@@ -3,6 +3,7 @@ layout: post
 title: "Some Thought on ECMAScript6"
 date: 2019-08-05
 comments: true
+published: false
 ---
 
 ES6 has been around for a while and is now supported in all major browsers. I've decided to start writing about what I think are the most important changes in JavaScript.
