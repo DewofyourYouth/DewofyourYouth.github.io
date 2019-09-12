@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Some Thought on ECMAScript6"
-date: 2019-08-05
 comments: true
 published: false
 ---
