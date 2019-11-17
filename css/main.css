@@ -89,6 +89,7 @@ a.nav-link:hover {
 
 .posts {
   list-style: none;
+  font-family: 'Fira Code', monospace;
 }
 
 .post h2 {
