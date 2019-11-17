@@ -39,6 +39,11 @@ h2 {
   padding: 10px;
 }
 
+.archive-item {
+  font-size: 0.9rem;
+  padding: 5px 15px;
+}
+
 .jumbotron {
   border-radius: 0;
   background-color: #000;
