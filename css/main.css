@@ -30,6 +30,10 @@ blockquote p {
   display: inline;
 }
 
+h1 {
+  font-family: 'Press Start 2P', cursive;
+}
+
 .jumbotron {
   border-radius: 0;
   background-color: #000;
