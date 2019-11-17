@@ -33,8 +33,7 @@ h1 {
   font-family: 'Press Start 2P', cursive;
 }
 
-.meta,
-h2 {
+.meta {
   font-family: 'Tomorrow', sans-serif;
 }
 
@@ -89,6 +88,7 @@ a.nav-link:hover {
 
 .posts h2 a {
   color: #9b8a8a;
+  font-family: 'Tomorrow', sans-serif;
 }
 
 .posts li {
