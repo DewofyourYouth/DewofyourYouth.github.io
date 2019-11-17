@@ -13,6 +13,8 @@ Hi Folks! This is part one of a series which will go through how to make a basic
 
 In this part, we'll discuss setting up the database. I've never done a sqlite database for a blog before, so I thought it would be fun to make a very, very basic schema for the blog.
 
+Let's first set up the schema on [DB Fiddle](https://www.db-fiddle.com)
+
 First we'll make a table for the authors like this:
 
 ```sql
