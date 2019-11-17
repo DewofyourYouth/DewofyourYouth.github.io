@@ -3,6 +3,8 @@ layout: post
 title: 'SQL (Structured Query Language) Basics'
 date: 2019-05-29
 comments: true
+categories: [databases, backend, tutorials]
+tags: [SQL, databases, basics]
 ---
 
 Every query must end with a semi-colon.
