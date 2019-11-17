@@ -1,33 +1,34 @@
 ---
 layout: post
-title: "Regular Expressions"
+title: 'Regular Expressions'
 date: 2018-09-17
 comments: true
+categories:
+  - cheat sheets
 ---
 
 Here are some basic regex symbols to use (often the opposite of something is expressed by using it's capital). This is basically a cheatsheet, in the next post I will show some real word applications of grep and regular expressions.
 
-| Symbol  | Use                            | Symbol | Use                     |
-| ------- | ------------------------------ | ------ | ----------------------  |
-| .       | any character except new line  |
-| ^       | beginning of string            |
-| $       | end of string                  |
-| \d      | any digit 0-9                  | \D     | anything not a digit    |
-| \w      | any word                       | \W     | anything not a word     |
-| \s      |  whitespace                    | \S     | not whitespace          |
-| \b      |  word boundary (starts word)   | \B     | not word boundary       |
-
+| Symbol | Use                           | Symbol | Use                  |
+| ------ | ----------------------------- | ------ | -------------------- |
+| .      | any character except new line |
+| ^      | beginning of string           |
+| \$     | end of string                 |
+| \d     | any digit 0-9                 | \D     | anything not a digit |
+| \w     | any word                      | \W     | anything not a word  |
+| \s     | whitespace                    | \S     | not whitespace       |
+| \b     | word boundary (starts word)   | \B     | not word boundary    |
 
 <hr>
 
-example = Ha HaHa  
+example = Ha HaHa
 
-**\b**Ha matches     : **Ha Ha**Ha  
+**\b**Ha matches : **Ha Ha**Ha  
 **\b**Ha**\b** matches : **Ha** HaHa  
-**\B**Ha matches     : Ha Ha**Ha**  
+**\B**Ha matches : Ha Ha**Ha**
 
 ^Ha matches : **Ha** HaHa  
-Ha$ matches : Ha Ha**Ha**
+Ha\$ matches : Ha Ha**Ha**
 
 ### Character Set = []
 
@@ -40,7 +41,7 @@ on 800 or 900 numbers
 match between  
 [0-9] matches numbers 0-9  
 [a-zA-Z] matches all letters  
-in character sets a ^ matches everything  not in the string  
+in character sets a ^ matches everything not in the string  
 example [^b]at : **cat mat** bat **sat**
 
 ### Quantifiers
@@ -79,9 +80,9 @@ In replace $2$3 (or \2\3) will return group 2 and 3
 
 search for patterns of zeros surrounded by ones:  
 (10+1)  
-11110001001111 : match 1 = 10001  
+11110001001111 : match 1 = 10001
 
 (?=(10+1))  
-11110001001111 : match 1 = 10001 match 2 = 1001  
+11110001001111 : match 1 = 10001 match 2 = 1001
 
 Search Before (?<=pattern)

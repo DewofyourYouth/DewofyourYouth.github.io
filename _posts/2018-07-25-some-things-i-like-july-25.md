@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "Some Things I Like (for the week of July 23rd)"
+title: 'Some Things I Like (for the week of July 23rd)'
 date: 2018-07-25
 comments: true
+categories:
+  - opinions
 ---
+
 Here's a list of three things I like for the week of July 23rd.
 
 1. [Blockstack](https://blockstack.org/)
@@ -18,11 +21,9 @@ Check it out here:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7SmC7AuZNWY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-
 ### [Disqus](https://disqus.com/)
 
 I recently discovered Disqus and was able to use it to add a comments section to my little Jekyll/Github Pages blog. This was surprisingly straightforward and simple to install.
-
 
 ### This Review of KaiOS by [Tech Alter](https://www.youtube.com/watch?v=OA_g2bQgOXY)
 

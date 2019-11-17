@@ -1,8 +1,11 @@
 ---
 layout: post
-title: "GREP Notes"
+title: 'GREP Notes'
 date: 2018-09-16
 comments: true
+categories:
+  - cheat sheets
+  - linux
 ---
 
 Here are some notes from a while back about GREP commands. Maybe it will be helpful to someone.
@@ -33,16 +36,15 @@ Return line number also:
 grep -n "Yaakov Shore" names.txt
 ```
 
-so  **grep -win** means w = only whole words, i = not case sensitive, n = also print line # to terminal
+so **grep -win** means w = only whole words, i = not case sensitive, n = also print line # to terminal
 
 These commands are separate (like this grep -win -C 2 "Yaakov Shore" names.txt)
 
 **grep -A 4** : returns match w/ 4 lines after it
 **grep -B 4** : returns match w/ 4 lines before it
-**grep -C 2*** : returns match w/ 2 lines b4 and 2 lines after
+**grep -C 2\*** : returns match w/ 2 lines b4 and 2 lines after
 
-
-To search directories w/o sub directories use wildcard :  grep -win "Yaakov Shore" ./*  or  grep -win "Yaakov Shore" ./*.txt  to search only text files
+To search directories w/o sub directories use wildcard : grep -win "Yaakov Shore" ./_ or grep -win "Yaakov Shore" ./_.txt to search only text files
 
 To search sub directories do a recursive search with r like this:
 
@@ -50,13 +52,12 @@ To search sub directories do a recursive search with r like this:
 grep -r "Yaakov Shore"
 ```
 
-If you just want the files and not the text printed use -l like this:  grep -rl "Yaakov Shore" and if you want a count of the matches use -c
+If you just want the files and not the text printed use -l like this: grep -rl "Yaakov Shore" and if you want a count of the matches use -c
 
 ```bash
-history | grep "git commit" 
+history | grep "git commit"
 history | grep "git commit" | grep "dotfile"  # narrows it down further
 ```
-
 
 grep -P is for Perl compatible regular expressions on Linux
 grep -P "\d{3}-\d{3}-\d{4}" names.txt returns phone numbers in names.txt (3 digits then "-" then another 3 d then "-" then 4 d).

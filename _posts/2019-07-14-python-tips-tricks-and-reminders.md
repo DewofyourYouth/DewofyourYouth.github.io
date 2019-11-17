@@ -1,25 +1,28 @@
 ---
 layout: post
-title: "Python Tips, Tricks &amp Reminders"
+title: 'Python Tips, Tricks &amp Reminders'
 date: 2019-07-14
 comments: true
+categories:
+  - cheat sheets
+  - python
 ---
 
 ### Table of Contents
 
- - [Use Ternary Conditionals For Simple Checking](#1-use-ternary-conditionals-for-simple-checking)
- - [Separate Large Numbers with Underscores](#2-separate-large-numbers-with-underscores)
- - [Use Context Managers](#3-use-context-managers)
- - [Use Enumerate (Not Counter Variable)](#4-use-enumerate-not-counter-variable)
- - [Use The Zip Function](#5-use-the-zip-function)
- - [Tuple Unpacking](#6-tuple-unpacking)
- - [setattr / getattr](#7-setattr--getattr)
- - [Help](#8-help)
- - [Use .get() For Dictionaries](#9-use-get-for-dictionaries)
- - [For Loops Have Else](#10-for-loops-have-else)
- - [NamedTuples - Faster Than Making Classes Manually (but immutable - like tuples)](#11-namedtuples---faster-than-making-classes-manually-but-immutable---like-tuples)
- - [Lambda Functions](#12-lambda-functions)
- - [List Comprehension](#13-list-comprehension)
+- [Use Ternary Conditionals For Simple Checking](#1-use-ternary-conditionals-for-simple-checking)
+- [Separate Large Numbers with Underscores](#2-separate-large-numbers-with-underscores)
+- [Use Context Managers](#3-use-context-managers)
+- [Use Enumerate (Not Counter Variable)](#4-use-enumerate-not-counter-variable)
+- [Use The Zip Function](#5-use-the-zip-function)
+- [Tuple Unpacking](#6-tuple-unpacking)
+- [setattr / getattr](#7-setattr--getattr)
+- [Help](#8-help)
+- [Use .get() For Dictionaries](#9-use-get-for-dictionaries)
+- [For Loops Have Else](#10-for-loops-have-else)
+- [NamedTuples - Faster Than Making Classes Manually (but immutable - like tuples)](#11-namedtuples---faster-than-making-classes-manually-but-immutable---like-tuples)
+- [Lambda Functions](#12-lambda-functions)
+- [List Comprehension](#13-list-comprehension)
 
 ## 1) Use Ternary Conditionals For Simple Checking
 
@@ -36,7 +39,6 @@ num2 = 100_000_000
 
 total = num1 + num2 # total is 100100000000
 ```
-
 
 To include [formating in answer](https://docs.python.org/3/library/string.html#format-examples):
 
@@ -91,7 +93,7 @@ Prints:
 fnames = ['Billy', 'MaryAnne', 'Robert', 'Susy']
 lnames = ['McDougal', 'Swanson', 'Lee', 'Sheehan']
 
-fullnames = [f'{fname} {lname}' for fname, lname in zip(fnames, lnames)] 
+fullnames = [f'{fname} {lname}' for fname, lname in zip(fnames, lnames)]
 # ['Billy McDougal', 'MaryAnne Swanson', 'Robert Lee', 'Susy Sheehan']
 ```
 
@@ -247,11 +249,12 @@ nums_list = [1, 5, -6, 6, -34, 108, 4, -22]
 b_positive = [num for num in nums_list if num > 0] # [1, 5, 6, 108, 4]
 ```
 
-or... 
+or...
 
 ```python
 nums_list = [1, 5, -6, 6, -34, 108, 4, -22]
 
 make_positive = [abs(num) for num in nums_list] # [1, 5, 6, 6, 34, 108, 4, 22]
 ```
+
 There's also an example with zip in [tip #5](#5-use-the-zip-function)

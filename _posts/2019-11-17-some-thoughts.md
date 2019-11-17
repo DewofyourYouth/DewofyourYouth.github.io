@@ -5,6 +5,8 @@ date: 2019-11-17
 comments: true
 categories:
   - opinions
+  - javascript
+  - databases
 tags:
   - javascript
   - web development
