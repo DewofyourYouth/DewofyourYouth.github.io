@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Some Thoughts the State of Web Development'
+title: 'Some Thoughts on the State of Web Development'
 date: 2019-11-17
 comments: true
 ---
