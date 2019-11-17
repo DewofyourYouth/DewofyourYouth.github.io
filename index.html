@@ -4,18 +4,20 @@ title: Dew of your Youth
 ---
 
 <div class="jumbotron">
-	<h1>{{ page.title }}</h1>
-	<p>The Ramblings of Yaakov Shore.</p>
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.description }}</p>
 </div>
 
-
 <div class="container">
-	<ul class="posts">
-	  {% for post in site.posts %}
-		<li><span> {{ post.date | date_to_string }}</span>
-			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-			{{ post.excerpt }}
-		   </li>
-	  {% endfor %}
-	</ul>
+  <ul class="posts">
+    {% for post in site.posts %}
+    <li>
+      <span> {{ post.date | date_to_string }}</span>
+      <h2>
+        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      </h2>
+      {{ post.excerpt }}
+    </li>
+    {% endfor %}
+  </ul>
 </div>
