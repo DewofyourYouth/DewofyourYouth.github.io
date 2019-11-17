@@ -5,6 +5,11 @@ date: 2019-11-17
 comments: true
 categories:
   - opinions
+tags:
+  - javascript
+  - web development
+  - vuejs
+  - react
 ---
 
 ## Is Vuejs Worth It?

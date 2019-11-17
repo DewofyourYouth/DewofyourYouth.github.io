@@ -11,6 +11,10 @@ comments: true
   <div class="meta">
     categories: {{ page.categories | join ', ' | capitalize }}
   </div>
+  {% endif %} {% if page.tags != empty %}
+  <div class="meta">
+    categories: {{ page.tags | join ', ' | capitalize }}
+  </div>
   {% endif %}
 
   <div class="post">
