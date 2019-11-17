@@ -5,9 +5,13 @@ date: 2019-05-29
 comments: true
 categories:
   - databases
-  - tutorials
+  - cheat sheets
   - SQL
-tags: [SQL, databases, basics]
+tags:
+  - SQL
+  - basics
+  - databases
+  - cheat sheets
 ---
 
 Every query must end with a semi-colon.
