@@ -133,6 +133,7 @@ td {
 .excerpt,
 .meta {
   font-size: 0.8rem;
+  padding-left: 20px;
 }
 
 @media only screen and (max-width: 900px) {
