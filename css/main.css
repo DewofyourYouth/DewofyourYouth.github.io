@@ -1,6 +1,5 @@
 @import url(vim.css);
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto+Slab|Tomorrow&display=swap');
 
 .container-fluid {
   padding: 0;
@@ -32,6 +31,10 @@ blockquote p {
 
 h1 {
   font-family: 'Press Start 2P', cursive;
+}
+
+.meta {
+  font-family: 'Tomorrow', sans-serif;
 }
 
 .jumbotron {
