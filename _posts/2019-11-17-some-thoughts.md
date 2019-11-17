@@ -13,4 +13,4 @@ I'm saying this as someone who really likes the Vue framework and there emphasis
 
 ## Standardize ORMs
 
-While the value added by ORMs is clear. Could it possibly be time to restandardize the way they query. Are their advantages overshadowed by the chaos they cause by each ORM basically coming up with a newish syntax to do the exact same thing the last ORM did? Sure, add features, but SQL is cool because you can basically move from MySQL to PostGRES to sqlite to whatever with basically no learning curve? Why not keep that advantage?
+While the value added by ORMs is clear. Could it possibly be time to restandardize the way they query. Are their advantages overshadowed by the chaos they cause by each ORM basically coming up with a newish syntax to do the exact same thing the last ORM did? Sure, add features, but SQL is cool because you can basically move from MySQL to PostGRES to sqlite to whatever with basically no learning curve. Why not keep that advantage?
