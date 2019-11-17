@@ -45,6 +45,7 @@ h2 {
 .archive-item {
   font-size: 0.9rem;
   padding: 5px 15px;
+  font-family: 'Fira Code', monospace;
 }
 
 .jumbotron {
