@@ -79,13 +79,14 @@ h2 {
 
 .navbar-brand:hover,
 .nav-item:hover {
-  transform: rotate(10deg);
+  /* transform: rotate(10deg); */
   transition-duration: 300ms;
 }
 
 a.nav-link:hover {
   font-size: 110%;
   color: orangered !important;
+  transition-duration: 300ms;
 }
 
 .posts {
