@@ -1,8 +1,12 @@
 ---
 layout: post
-title: "Making A Basic Flask Blog: Part I"
+title: 'Making A Basic Flask Blog: Part I'
 date: 2018-07-23
 comments: true
+categories:
+  - databases
+  - python
+  - flask
 ---
 
 Hi Folks! This is part one of a series which will go through how to make a basic flask blog from scratch.
@@ -76,10 +80,10 @@ ORDER BY post_date DESC;
 
 The result should look like this:
 
-| title              | firstname | lastname | post_date           | content                             |
-|--------------------|-----------|----------|---------------------|-------------------------------------|
-| Another Blog Title | Yaakov    | Shore    | 2018-07-27 07:35    | This is a blog post. Really, it is! |
-| A Blog Title       | Yaakov    | Shore    | 2018-07-23 23:52    | This is a blog post. Really, it is! |
-|                    |           |          |                     |                                     |
+| title              | firstname | lastname | post_date        | content                             |
+| ------------------ | --------- | -------- | ---------------- | ----------------------------------- |
+| Another Blog Title | Yaakov    | Shore    | 2018-07-27 07:35 | This is a blog post. Really, it is! |
+| A Blog Title       | Yaakov    | Shore    | 2018-07-23 23:52 | This is a blog post. Really, it is! |
+|                    |           |          |                  |                                     |
 
 Here is a link to the code on [DB Fiddle](https://www.db-fiddle.com/f/k3mRqJwFRWVoPEaKAqQyV3/2).
