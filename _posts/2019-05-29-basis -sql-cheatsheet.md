@@ -6,7 +6,6 @@ comments: true
 categories:
   - databases
   - cheat sheets
-  - SQL
 tags:
   - SQL
   - basics
