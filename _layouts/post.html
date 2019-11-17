@@ -10,7 +10,7 @@ comments: true
   {% if page.categories != empty || page.tags != empty %} {% if page.categories
   != empty %}
   <div class="meta">
-    categories: {% for category in page.categories %}{{category | join ', '}}{%
+    categories: {% for category in page.categories %}{{category | join ', '}} {%
     endfor %}
   </div>
   {% endif %} {% if page.tags != empty %}
