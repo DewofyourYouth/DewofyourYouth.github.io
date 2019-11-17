@@ -1,16 +1,17 @@
 ---
 layout: post
-title: "Basic Hacker Terms &amp; Jargon"
+title: 'Basic Hacker Terms &amp; Jargon'
 date: 2018-10-24
 comments: true
+published: false
 ---
 
 A list of some basic terms and jargon related to hacking and computer security.
 
 - white hat / gray hat / black hat
-    *  white hat: ethical and law abiding hacker
-    * gray hat: may violate some laws and typical ethical standards - but doesn't have malicious intent typical of black hat hackers.
-    * black hat: violates computer security and ethics for malicious reasons or personal gain.
+  - white hat: ethical and law abiding hacker
+  - gray hat: may violate some laws and typical ethical standards - but doesn't have malicious intent typical of black hat hackers.
+  - black hat: violates computer security and ethics for malicious reasons or personal gain.
 - footprinting: collecting information
 - DoS: denial of service (for an individual computer - you)
 - DDoS: denial of service for multiple computers
@@ -26,4 +27,3 @@ A list of some basic terms and jargon related to hacking and computer security.
 - Key Loggers: records key strokes on a keyboard.
 - Terminal: command line interface
 - Firewall: ["A firewall is a network security device that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic based on a defined set of security rules."](https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html)
-

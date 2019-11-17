@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Android Notes"
+title: 'Android Notes'
 date: 2018-10-21
 comments: true
+published: false
 ---
 
 #### Some Notes For Android Development (Beginners)
@@ -17,7 +18,7 @@ I'm transcribing this from my written notes - so if you come to the page and see
 
 ---
 
-The layout in an Android app is made of views. Views are  boxes on the screen. The views are generally made in XML.
+The layout in an Android app is made of views. Views are boxes on the screen. The views are generally made in XML.
 
 XML stands for e**X**tensible **M**arkup **L**anguage. XML is similar to HTML.
 
@@ -54,7 +55,6 @@ Example of parent and child tag:
         android:layout_height="75dp" />
 </LinearLayout>
 ```
-
 
 This is probably not a layout you'll ever make, but serves and as example.
 
