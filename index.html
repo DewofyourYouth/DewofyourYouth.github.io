@@ -18,7 +18,7 @@ title: Dew of your Youth
       </h2>
       {% if post.categories != empty %}
       <p class="meta">
-        CATEGORIES: {{ post.categories | join ', ' | capitalize }}
+        CATEGORIES: {{ post.categories | join ', ' }}
       </p>
       {% endif %}
       <div class="excerpt">{{ post.excerpt }}</div>
