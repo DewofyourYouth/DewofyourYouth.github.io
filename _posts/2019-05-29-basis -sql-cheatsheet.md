@@ -3,7 +3,10 @@ layout: post
 title: 'SQL (Structured Query Language) Basics'
 date: 2019-05-29
 comments: true
-categories: [databases, backend, tutorials]
+categories:
+  - databases
+  - tutorials
+  - SQL
 tags: [SQL, databases, basics]
 ---
 
