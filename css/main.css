@@ -10,6 +10,7 @@
 
 body {
   padding-top: 80px;
+  font-family: 'Fira Code', monospace;
 }
 
 blockquote {
@@ -45,7 +46,6 @@ h2 {
 .archive-item {
   font-size: 0.9rem;
   padding: 5px 15px;
-  font-family: 'Fira Code', monospace;
 }
 
 .jumbotron {
@@ -90,7 +90,6 @@ a.nav-link:hover {
 
 .posts {
   list-style: none;
-  font-family: 'Fira Code', monospace;
 }
 
 .post h2 {
