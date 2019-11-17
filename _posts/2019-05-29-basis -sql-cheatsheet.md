@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "SQL (Structured Query Language) Basics"
+title: 'SQL (Structured Query Language) Basics'
 date: 2019-05-29
 comments: true
 ---
 
-Every query must end with a semi-colon. 
+Every query must end with a semi-colon.
 
-Whenever something should be substituted with a value I will indicate this like this ```<value>``` - unless impractical, then you'll need to use your judgement.
+Whenever something should be substituted with a value I will indicate this like this `<value>` - unless impractical, then you'll need to use your judgement.
 
 ## CREATING STUFF
 
@@ -95,7 +95,7 @@ ORDER BY <column_name/s> ASC/DESC
 LIMIT <NUMBER>;
 ```
 
-To select all columns an astrix is subsituted for the column names - like this: 
+To select all columns an astrix is subsituted for the column names - like this:
 
 ```sql
 SELECT *
@@ -117,7 +117,6 @@ SELECT DISTINCT <column>
 FROM <table>;
 ```
 
-
 ```sql
 SELECT DISTINCT <column1>, <column2>
 FROM <table>;
@@ -135,6 +134,29 @@ ORDER BY
 ```
 
 ### LIKE
+
+For `WHERE` clauses that are not as exact as `name='Billy'` or `price > 50` use `LIKE`.
+
+This will return all rows where the `name` column starts with the letter `a`.
+
+```sql
+SELECT * FROM myCoolTable
+WHERE name LIKE 'a%';
+```
+
+This will return all rows where the `name` column contains the letter `a`.
+
+```sql
+SELECT * FROM myCoolTable
+WHERE name LIKE '%a%`;
+```
+
+This will return all the rows where the `name` column contains the letter `a` in the second position.
+
+```sql
+SELECT * FROM myCoolTable
+WHERE name LIKE '_a%`;
+```
 
 ### UPDATE
 
@@ -162,8 +184,6 @@ Only joins when there are rows that are joined from both tables.
 Returns all rows from both tables.
 
 #### LEFT
-
-
 
 #### RIGHT
 
