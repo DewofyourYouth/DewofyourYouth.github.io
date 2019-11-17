@@ -1,8 +1,11 @@
 @import url(vim.css);
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto+Slab|Tomorrow&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Fira+Code|Press+Start+2P|Roboto+Slab|Tomorrow&display=swap');
 .container-fluid {
   padding: 0;
+}
+
+.highlight {
+  font-family: 'Fira Code', monospace;
 }
 
 body {
