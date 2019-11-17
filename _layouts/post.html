@@ -11,7 +11,7 @@ comments: true
   != empty %}
   <div class="meta">
     categories: {% for category in page.categories %}{% categorylink category
-    %}{{category | join ', '}}{{endcategorylink}} {% endfor %}
+    %}{{category | join ', '}}{%endcategorylink%} {% endfor %}
   </div>
   {% endif %} {% if page.tags != empty %}
   <div class="meta">
