@@ -1,7 +1,7 @@
 name: Dew of your Youth
 markdown: kramdown
 highlighter: rouge
-linenos: tru
+linenos: true
 permalink: /:categories/:year/:month/:day/:title:output_ext
 title: Dew of your Youth
 description: Yaakov Shore rambles on about life, tech, coding and banjo licks.
