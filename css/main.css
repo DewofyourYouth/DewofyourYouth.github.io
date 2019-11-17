@@ -124,7 +124,8 @@ td {
   padding: 5px;
 }
 
-.excerpt {
+.excerpt,
+.meta {
   font-size: 0.8rem;
 }
 
