@@ -11,7 +11,7 @@ categories:
 
 Eyes that Follow You
 
-<p class="codepen" data-height="600" data-theme-id="default" data-default-tab="result" data-user="JacobShore" data-slug-hash="YzzdRJj" style="height: 432px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Eyes Follow You">
+<p class="codepen" data-height="700" data-theme-id="default" data-default-tab="result" data-user="JacobShore" data-slug-hash="YzzdRJj" style="height: 432px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Eyes Follow You">
   <span>See the Pen <a href="https://codepen.io/JacobShore/pen/YzzdRJj">
   Eyes Follow You</a> by Yaakov Shore (<a href="https://codepen.io/JacobShore">@JacobShore</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
