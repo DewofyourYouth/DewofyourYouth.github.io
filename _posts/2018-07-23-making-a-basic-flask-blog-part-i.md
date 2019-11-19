@@ -69,7 +69,7 @@ insert into blog_posts(
   );
 ```
 
-The `author_id` correspondes to the id in the `authors` table.
+The `author_id` corresponds to the id in the `authors` table.
 
 To select the author by `firstname` and `lastname` we must join the `author_id` to the `id` in the `authors` table. Let's do that here:
 
