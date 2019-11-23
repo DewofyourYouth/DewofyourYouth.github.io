@@ -31,6 +31,12 @@ Well, that was easy! Next you'll need to connect to the database. The way you do
 \connect <db_name>
 ```
 
+In mysql it's:
+
+```sql
+use <db_name>;
+```
+
 If you're in bash or alike you'd do something like this:
 
 ```bash
