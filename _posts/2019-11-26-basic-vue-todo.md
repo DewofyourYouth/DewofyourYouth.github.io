@@ -19,11 +19,60 @@ So this tutorial will assume that you know how to set up the basics for front en
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 ```
 
+Then, in your root directory make a directory call `js` and make a file called something like `index.js`. Then import `index.js` after vue.js - like this:
+
+```html
+<!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/index.js"></script>
+```
+
+In the demo, I use the Bootstrap 4 framework for styling - to import this - in the head section of your html add this `link` tag before linking to your own stylesheet:
+
+```html
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous"
+/>
+```
+
+This is the only part of Bootstrap I use, so it should suffice (you could feasible import less of the css - but I didn't bother as the Bootstrap 4 stylesheet is probably already cached in your browser, so it's cool.) Next make a css stylesheet and link to in under the Bootstrap link.
+
+HTML so far:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vue Stuff</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
+```
+
 The documentation for Vuejs is found [here](https://vuejs.org/).
 
 The github repo for the finished project is [here](https://github.com/DewofyourYouth/vue-localStorage-todo) and a demo page for that repo is [here](https://dewofyouryouth.github.io/vue-localStorage-todo/).
 
-Here is the finished app:
+Here is the finished app on CodePen:
 
 <p class="codepen" data-height="711" data-theme-id="dark" data-default-tab="result" data-user="JacobShore" data-slug-hash="QWWXvGw" style="height: 711px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Vue Todo with localStorage">
   <span>See the Pen <a href="https://codepen.io/JacobShore/pen/QWWXvGw">
