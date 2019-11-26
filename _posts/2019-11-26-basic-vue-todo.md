@@ -40,6 +40,19 @@ In the demo, I use the Bootstrap 4 framework for styling - to import this - in t
 
 This is the only part of Bootstrap I use, so it should suffice (you could feasible import less of the css - but I didn't bother as the Bootstrap 4 stylesheet is probably already cached in your browser, so it's cool.) Next make a css stylesheet and link to in under the Bootstrap link.
 
+Now lets make a div for our view instance to live in - will give it an id of `app`
+
+like this:
+
+```html
+<body>
+  <div id="app"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="js/index.js"></script>
+</body>
+```
+
 HTML so far:
 
 ```html
@@ -62,11 +75,17 @@ HTML so far:
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
+    <div id="app">
+
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>
 ```
+
+## Getting Started
+
+Lets start by going to our `index.js` file and making the view instance.
 
 The documentation for Vuejs is found [here](https://vuejs.org/).
 
