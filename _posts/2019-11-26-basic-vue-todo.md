@@ -10,6 +10,8 @@ categories:
 
 So in this little tutorial I will run through making a 'todo' app in Vuejs. I will be using the [localStorage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API) to avoid annoyingly losing my list when I refresh the browser - but also avoid having to use a backend db API. It will also sync my todo list across multiple tabs in the same browser.
 
+The github repo for the finished project is [here](https://github.com/DewofyourYouth/vue-localStorage-todo) and a demo page for that repo is [here](https://dewofyouryouth.github.io/vue-localStorage-todo/).
+
 ## Set Up
 
 So this tutorial will assume that you know how to set up the basics for front end development with css and javascript. In your `index.html` within the body tags - before you import your `index.js` file - import the Vuejs library like this:
@@ -152,8 +154,6 @@ Notice that we looped through the list using Vue's `v-for` directive [see here f
 Here is a good place to stop for now. In the next section, we'll learn how to add todo items to the list.
 
 The documentation for Vuejs is found [here](https://vuejs.org/).
-
-The github repo for the finished project is [here](https://github.com/DewofyourYouth/vue-localStorage-todo) and a demo page for that repo is [here](https://dewofyouryouth.github.io/vue-localStorage-todo/).
 
 Here is the finished app on CodePen:
 
