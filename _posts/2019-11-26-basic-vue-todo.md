@@ -76,7 +76,7 @@ HTML so far:
   </head>
   <body>
     <div id="app">
-
+    <!-- development version, includes helpful console warnings -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="js/index.js"></script>
   </body>
