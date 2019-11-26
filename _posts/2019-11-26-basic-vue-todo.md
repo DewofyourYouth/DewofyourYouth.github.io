@@ -99,6 +99,8 @@ const app = new Vue({
 });
 ```
 
+Placeholder text for finishing the tutorial
+
 The documentation for Vuejs is found [here](https://vuejs.org/).
 
 The github repo for the finished project is [here](https://github.com/DewofyourYouth/vue-localStorage-todo) and a demo page for that repo is [here](https://dewofyouryouth.github.io/vue-localStorage-todo/).
