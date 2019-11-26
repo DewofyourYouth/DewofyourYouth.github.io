@@ -99,7 +99,26 @@ const app = new Vue({
 });
 ```
 
-Placeholder text for finishing the tutorial
+Now we'll add a [data object](https://vuejs.org/v2/api/#data) to our Vue instance. (I'm a big fan of the way Vuejs handles data through the data object - I find it a very intuitive way to manage state.) To make sure everything is working, lets add something to our data to display in the Vue element. We'll call it `msg`.
+
+```javascript
+const app = new Vue({
+  el: '#app',
+  data: {
+    msg: "Hello from data!"
+  }
+})
+```
+
+Now in the HTML - add this:
+
+```html
+<div id="app"><h1>{{msg}}</h1></div>
+```
+If everything is working, if you open `index.html` in a browser, you should see:
+
+# Hello from data!
+
 
 The documentation for Vuejs is found [here](https://vuejs.org/).
 
