@@ -21,6 +21,8 @@ So this tutorial will assume that you know how to set up the basics for front en
 
 The documentation for Vuejs is found [here](https://vuejs.org/).
 
+The github repo for the finished project is [here](https://github.com/DewofyourYouth/vue-localStorage-todo) and a demo page for that repo is [here](https://dewofyouryouth.github.io/vue-localStorage-todo/).
+
 Here is the finished app:
 
 <p class="codepen" data-height="711" data-theme-id="dark" data-default-tab="result" data-user="JacobShore" data-slug-hash="QWWXvGw" style="height: 711px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Vue Todo with localStorage">
