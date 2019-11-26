@@ -8,7 +8,7 @@ categories:
   - tutorials
 ---
 
-So in this little tutorial I will run through making a 'todo' app in Vuejs. I will be using the localStorage API to avoid annoyingly losing my list when I refresh the browser - but also avoid having to use a backend db API.
+So in this little tutorial I will run through making a 'todo' app in Vuejs. I will be using the localStorage API to avoid annoyingly losing my list when I refresh the browser - but also avoid having to use a backend db API. It will also sync my todo list across multiple tabs in the same browser.
 
 Here is the finished app:
 
