@@ -85,7 +85,19 @@ HTML so far:
 
 ## Getting Started
 
-Lets start by going to our `index.js` file and making the view instance.
+Lets start by going to our `index.js` file and making the view instance. In `index.js` type:
+
+```javascript
+const app = new Vue();
+```
+
+And specify which element the Vue instance will live in like this:
+
+```javascript
+const app = new Vue({
+  el: '#app'
+});
+```
 
 The documentation for Vuejs is found [here](https://vuejs.org/).
 
