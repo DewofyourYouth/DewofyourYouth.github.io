@@ -18,3 +18,14 @@ Here is the finished app:
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+## Set Up
+
+So this tutorial will assume that you know how to set up the basics for front end development with css and javascript. In your `index.html` within the body tags - before you import your `index.js` file - import the Vuejs library like this:
+
+```html
+<!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+```
+
+The documentation for Vuejs is found [here](https://vuejs.org/).
