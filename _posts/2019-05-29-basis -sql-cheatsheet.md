@@ -109,7 +109,7 @@ ORDER BY <column_name/s> ASC/DESC
 LIMIT <NUMBER>;
 ```
 
-To select all columns an astrix is subsituted for the column names - like this:
+To select all columns an asterisk is substituted for the column names - like this:
 
 ```sql
 SELECT *

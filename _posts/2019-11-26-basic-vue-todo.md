@@ -107,9 +107,9 @@ Now we'll add a [data object](https://vuejs.org/v2/api/#data) to our Vue instanc
 const app = new Vue({
   el: '#app',
   data: {
-    msg: "Hello from the Vue!"
+    msg: 'Hello from the Vue!'
   }
-})
+});
 ```
 
 Now in the HTML - add this:
@@ -117,6 +117,7 @@ Now in the HTML - add this:
 ```html
 <div id="app"><h1>{{msg}}</h1></div>
 ```
+
 If everything is working, if you open `index.html` in a browser, you should see:
 
 # Hello from the Vue!
@@ -127,28 +128,28 @@ Now let's make a list of todo objects in the data object like this:
 const app = new Vue({
   el: '#app',
   data: {
-    msg: "Hello from the Vue!",
+    msg: 'Hello from the Vue!',
     todos: [
-      {index: 0, text: "make coffee"},
-      {index: 1, text: "write code"}
+      { index: 0, text: 'make coffee' },
+      { index: 1, text: 'write code' }
     ]
   }
-})
-
+});
 ```
 
 Now that we have a little array of objects in our Vue. Let's loop through them in an unordered list. In `index.html` write the following:
 
 ```html
 <div id="app">
-    <h1>
-      {{ msg }}
-    </h1>
-    <ul>
-      <li v-for="todo in todos">{{todo.text}}</li>
+  <h1>
+    {{ msg }}
+  </h1>
+  <ul>
+    <li v-for="todo in todos">{{todo.text}}</li>
   </ul>
 </div>
 ```
+
 Notice that we looped through the list using Vue's `v-for` directive [see here for more details](https://vuejs.org/v2/guide/list.html#Mapping-an-Array-to-Elements-with-v-for).
 
 Here is a good place to stop for now. In the next section, we'll learn how to add todo items to the list.
