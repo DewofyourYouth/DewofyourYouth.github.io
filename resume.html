@@ -64,6 +64,11 @@
 
     </div>
   </div>
+  <div class="navbar-end">
+    <a class="navbar-item" href="https://github.com/DewofyourYouth">
+      <span id="github" data-times="1"></span>
+    </a>
+  </div>
 </nav>
 <section class="hero has-text-centered is-bold is-dark">
     <div class="hero-body">
@@ -239,23 +244,24 @@
 </section>
 <script>
   const addCircleIcon = (selector, iconName, className = "has-text-dark") => {
-    const nodes = document.querySelectorAll(selector)
-    const iconHTML = `
-    <span class="icon is-medium">
-                <span class="fa-stack">
-                  <i class="fas fa-circle fa-stack-2x ${className}"></i>
-                  <i class="fas fa-${iconName} fa-stack-1x fa-inverse"></i>
+  const nodes = document.querySelectorAll(selector)
+  const iconHTML = `
+   <span class="icon is-medium">
+              <span class="fa-stack">
+                <i class="fas fa-circle fa-stack-2x ${className}"></i>
+                <i class="${iconName} fa-stack-1x fa-inverse"></i>
+      </span>
     </span>
-  </span>
-  `
+    `
 
-    nodes.forEach(x => {
-      let times = x.dataset.times
-      x.innerHTML = iconHTML.repeat(times)})
-    
-  }
+  nodes.forEach(x => {
+    let times = x.dataset.times
+    x.innerHTML = iconHTML.repeat(times)})
+  
+}
 
-  addCircleIcon('.stars', 'star', 'has-text-primary')
+addCircleIcon('.stars', 'fas fa-star', 'has-text-primary')
+addCircleIcon('#github', 'fab fa-github-alt', 'has-text-warning	')
 </script>
 </body>
 </html>
