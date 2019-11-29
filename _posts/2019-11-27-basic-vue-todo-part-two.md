@@ -3,6 +3,7 @@ layout: post
 title: 'Basic Vue Todo App (w/ localStorage): Part II'
 date: '2019-11-27'
 comments: true
+published: false
 categories:
   - javascript
   - tutorials
