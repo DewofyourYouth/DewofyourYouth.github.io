@@ -61,6 +61,35 @@ You can also assign multiple variables together, like this:
 food, kosher, tastesLikeChicken := "alligator", false, true
 ```
 
+## Arrays and Slices
+
+Arrays have a fixed length, slices don't.
+
+So to make something an array you would put the arrays length as an integer in the square brackets like so:
+
+```go
+  myCoolArr := [3]int{1, 2, 4}
+```
+
+To make a slice it's the same thing, just without assigning a number.
+
+```go
+mySliceOf := [string]{`pepperoni pizza`, `life`, `pie`}
+```
+
+You can get a value from a slice or a slice of a slice.
+
+```go
+x := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+fmt.Println(x) // [1 2 3 4 5 6 7 8 9 10]
+fmt.Println(x[:5]) // [1 2 3 4 5] doesn't include index 5
+fmt.Println(x[5:]) // [6 7 8 9 10]
+fmt.Println(x[6]) // 7
+```
+
+[Go Play Space Link](https://goplay.space/#fSrIFSc-KQb)
+
 ## Loops In Go
 
 In Go - there is only a `for` loop. This does all types of loops:
@@ -71,7 +100,7 @@ In Go - there is only a `for` loop. This does all types of loops:
 * Basic for loop syntax
 * for init; condition; post {
 *   run command until the condition is true
-*
+* }
 */
 
 
@@ -123,22 +152,6 @@ for _, v := range whileSlice {
 [Go Play Space Link: Loops](https://goplay.space/#eA_7jQqpZjM)
 
 \* [A Tour of Go](https://tour.golang.org/flowcontrol/2)
-
-## Arrays and Slices
-
-Arrays have a fixed length, slices don't.
-
-So to make something an array you would put the arrays length as an integer in the square brackets like so:
-
-```go
-  myCoolArr := [3]int{1, 2, 4}
-```
-
-To make a slice it's the same thing, just without assigning a number.
-
-```go
-mySliceOf := [string]{`pepperoni pizza`, `life`, `the pie`}
-```
 
 ## Struct Methods v. Functions + Interfaces
 
