@@ -180,6 +180,8 @@ Maps are kind of like hash tables (or python dictionaries).
 
 ## Struct Methods v. Functions + Interfaces
 
+For those not thoroughly ensconced in the Go philosophy - just think of structs as objects.
+
 ```go
 package main
 
