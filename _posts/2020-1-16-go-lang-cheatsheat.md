@@ -8,7 +8,14 @@ categories:
   - go
 ---
 
+This post is still being written.
+
 Here I have put together some helpful go syntax, tips and tricks. Yay!
+
+- Hello World
+- Assignments
+- Loops
+- Arrays and Slices
 
 ## Your "Hello Go" Program
 
