@@ -164,3 +164,5 @@ func main() {
 	fmt.Println(getNameFunction(jacob))
 }
 ```
+
+[Go Play Space link](https://goplay.space/#JC5JxJE-Lxs)
