@@ -157,7 +157,26 @@ for _, v := range whileSlice {
 
 ## Maps
 
-Maps are kind of like objects.
+Maps are kind of like hash tables (or python dictionaries).
+
+```go
+//  varName := map[keyType]valueType
+	numbers := map[string]int64{
+		"Billy":  17185554545,
+		"Susy":   15612345678,
+		"Martha": 9173557171,
+	}
+	// you can also add to the map values like this
+	numbers["Jerry"] = 18002345555
+
+	fmt.Println(numbers["Billy"]) // 17185554545
+	fmt.Println(numbers["Susy"]) // 15612345678
+	fmt.Println(numbers["Martha"]) // 9173557171
+	fmt.Println(numbers["Jerry"]) // 18002345555
+}
+```
+
+[Go Play Space Link: maps](https://goplay.space/#nIW3QM-95Rg)
 
 ## Struct Methods v. Functions + Interfaces
 
