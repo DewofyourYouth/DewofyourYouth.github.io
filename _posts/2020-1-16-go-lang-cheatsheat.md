@@ -56,10 +56,14 @@ food, kosher, tastesLikeChicken := "alligator", false, true
 In Go - there is only a `for` loop. This does all types of loops:
 
 ```go
-// Basic normal for loop syntax
-for init; condition; post {
-  // run command until the condition is true
-}
+/**
+*
+* Basic normal for loop syntax
+* for init; condition; post {
+*   run command until the condition is true
+*
+*/
+
 
 // Example:
 for i := 0; i < 10; i++ {
