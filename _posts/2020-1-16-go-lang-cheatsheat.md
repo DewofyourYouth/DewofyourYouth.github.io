@@ -109,6 +109,15 @@ whileSlice := []string{"Runs", "like", "a", "while", "loop"}
 for i, v := range whileSlice {
   fmt.Printf("%v: %v\n", i, v)
 }
+
+/*
+  if you need to use range, but only want the value -
+  you can discard the index by using an underscore for
+  the variable name - like this:
+*/
+for _, v := range whileSlice {
+  fmt.Printf("%v\n",  v)
+}
 ```
 
 [Go Play Space Link: Loops](https://goplay.space/#eA_7jQqpZjM)
@@ -145,14 +154,34 @@ type person struct {
 	lastName  string
 }
 
-// this is like a method => called from the struct
+type product struct {
+	productName string
+	category    string
+	price       float64
+}
+
+// this is like a method => called from the struct "person"
 func (p person) getNameMethod() string {
 	return p.firstName + " " + p.lastName + " from method"
 }
 
-// this is like a function => accepts the struct as an argument
+// this is like a function => accepts the struct "person" as an argument
 func getNameFunction(p person) string {
 	return p.firstName + " " + p.lastName + " from function"
+}
+
+func (prod product) getNameMethod() string {
+	return prod.productName
+}
+
+// named thing is any type with a getNameMethod() method
+type namedThing interface {
+	getNameMethod() string
+}
+
+// this function will now accept both 'person' and 'product' types
+func getName(n namedThing) {
+	fmt.Println(n.getNameMethod())
 }
 
 func main() {
@@ -160,9 +189,17 @@ func main() {
 		"Jacob",
 		"Shore",
 	}
+	macbook := product{
+		"MacBook Air",
+		"electronics",
+		999.0,
+	}
 	fmt.Println(jacob.getNameMethod())
 	fmt.Println(getNameFunction(jacob))
+	getName(jacob)
+	getName(macbook)
 }
+
 ```
 
-[Go Play Space link](https://goplay.space/#JC5JxJE-Lxs)
+[Go Play Space link](https://goplay.space/#i8AXrXfyAGZ)
