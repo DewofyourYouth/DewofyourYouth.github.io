@@ -12,10 +12,13 @@ This post is still being written.
 
 Here I have put together some helpful go syntax, tips and tricks. Yay!
 
-- Hello World
-- Assignments
-- Loops
-- Arrays and Slices
+- [Your "Hello Go" Program](#your-%22hello-go%22-program)
+- [Assignments](#assignments)
+- [Arrays and Slices](#arrays-and-slices)
+- [Loops In Go](#loops-in-go)
+- [Functions](#functions)
+- [Maps](#maps)
+- [Struct Methods v. Functions + Interfaces](#struct-methods-v-functions--interfaces)
 
 ## Your "Hello Go" Program
 
@@ -154,6 +157,10 @@ for _, v := range whileSlice {
 [Go Play Space Link: Loops](https://goplay.space/#eA_7jQqpZjM)
 
 \* [A Tour of Go](https://tour.golang.org/flowcontrol/2)
+
+## Functions
+
+Placeholder
 
 ## Maps
 
