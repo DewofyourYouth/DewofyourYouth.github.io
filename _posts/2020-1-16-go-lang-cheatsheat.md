@@ -232,10 +232,10 @@ func main() {
 		"electronics",
 		999.0,
 	}
-	fmt.Println(jacob.getNameMethod())
-	fmt.Println(getNameFunction(jacob))
-	getName(jacob)
-	getName(macbook)
+	fmt.Println(jacob.getNameMethod()) // Jacob Shore from method
+	fmt.Println(getNameFunction(jacob)) //  Jacob Shore from function
+	getName(jacob) // Jacob Shore from method
+	getName(macbook) // MacBook Air
 }
 
 ```
