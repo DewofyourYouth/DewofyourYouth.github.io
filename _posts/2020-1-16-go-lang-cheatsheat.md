@@ -3,6 +3,9 @@ layout: post
 title: 'Quick Go Cheat Sheet'
 date: '2020-01-16'
 comments: true
+categories:
+  - cheat sheets
+  - go
 ---
 
 Here I have put together some helpful go syntax, tips and tricks. Yay!
