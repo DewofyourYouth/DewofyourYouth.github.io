@@ -130,3 +130,37 @@ To make a slice it's the same thing, just without assigning a number.
 ```go
 mySliceOf := [string]{`pepperoni pizza`, `life`, `the pie`}
 ```
+
+## Struct Methods v. Functions + Interfaces
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+type person struct {
+	firstName string
+	lastName  string
+}
+
+// this is like a method => called from the struct
+func (p person) getNameMethod() string {
+	return p.firstName + " " + p.lastName + " from method"
+}
+
+// this is like a function => accepts the struct as an argument
+func getNameFunction(p person) string {
+	return p.firstName + " " + p.lastName + " from function"
+}
+
+func main() {
+	jacob := person{
+		"Jacob",
+		"Shore",
+	}
+	fmt.Println(jacob.getNameMethod())
+	fmt.Println(getNameFunction(jacob))
+}
+```
