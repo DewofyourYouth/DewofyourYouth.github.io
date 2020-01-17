@@ -58,7 +58,7 @@ In Go - there is only a `for` loop. This does all types of loops:
 ```go
 /**
 *
-* Basic normal for loop syntax
+* Basic for loop syntax
 * for init; condition; post {
 *   run command until the condition is true
 *
@@ -97,9 +97,11 @@ whileSlice := []string{"Runs", "like", "a", "while", "loop"}
 
 // you can get the index with "range"
 for i, v := range whileSlice {
-  fmt.Printf("%v: %v", i, v)
+  fmt.Printf("%v: %v\n", i, v)
 }
 ```
+
+[Go Play Space Link: Loops](https://goplay.space/#eA_7jQqpZjM)
 
 \* [A Tour of Go](https://tour.golang.org/flowcontrol/2)
 
