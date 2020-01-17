@@ -61,6 +61,8 @@ You can also assign multiple variables together, like this:
 food, kosher, tastesLikeChicken := "alligator", false, true
 ```
 
+[Go Play Space Link: variable assignment](https://goplay.space/#chP7SjGaWw2)
+
 ## Arrays and Slices
 
 Arrays have a fixed length, slices don't.
@@ -88,7 +90,7 @@ fmt.Println(x[5:]) // [6 7 8 9 10]
 fmt.Println(x[6]) // 7
 ```
 
-[Go Play Space Link](https://goplay.space/#fSrIFSc-KQb)
+[Go Play Space Link: slices](https://goplay.space/#fSrIFSc-KQb)
 
 ## Loops In Go
 
@@ -152,6 +154,10 @@ for _, v := range whileSlice {
 [Go Play Space Link: Loops](https://goplay.space/#eA_7jQqpZjM)
 
 \* [A Tour of Go](https://tour.golang.org/flowcontrol/2)
+
+## Maps
+
+Maps are kind of like objects.
 
 ## Struct Methods v. Functions + Interfaces
 
