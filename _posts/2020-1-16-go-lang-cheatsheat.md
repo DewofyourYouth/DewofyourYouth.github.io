@@ -11,7 +11,7 @@ Here I have put together some helpful go syntax, tips and tricks. Yay!
 
 Link C and a myriad of other programs. The executable runs in the main function of the main package:
 
-```
+```go
 package main
 
 // your imports go here
@@ -28,7 +28,7 @@ func main() {
 
 There are basically four ways to assign a variable
 
-```
+```go
 // 1) explicitly assign type
 var a int = 10
 
@@ -47,7 +47,7 @@ d := 10
 
 You can also assign multiple variables together, like this:
 
-```
+```go
 food, kosher, tastesLikeChicken := "alligator", false, true
 ```
 
@@ -55,7 +55,7 @@ food, kosher, tastesLikeChicken := "alligator", false, true
 
 In Go - there is only a `for` loop. This does all types of loops:
 
-```
+```go
 // Basic normal for loop syntax
 for init; condition; post {
   // run command until the condition is true
