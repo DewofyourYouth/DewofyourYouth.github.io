@@ -108,7 +108,8 @@ To join two slices you can do something like this:
 slice1 := []string{"the", "rain", "in", "Spain"}
 slice2 := []string{"falls", "mainly", "on", "the", "plane"}
 slice3 := append(slice1, slice2...)
-fmt.Println(slice3)
+fmt.Println(slice3) // [the rain in Spain falls mainly on the plane]
+
 ```
 
 To delete an element you can do this:
