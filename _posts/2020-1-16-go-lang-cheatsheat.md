@@ -91,6 +91,32 @@ fmt.Println(x) // [1 2 3 4 5 6 7 8 9 10]
 fmt.Println(x[:5]) // [1 2 3 4 5] doesn't include index 5
 fmt.Println(x[5:]) // [6 7 8 9 10]
 fmt.Println(x[6]) // 7
+
+```
+
+You can add to a slice or array with the `append` method - like this:
+
+```go
+x = append(x, 11)
+fmt.Println(x) // [1 2 3 4 5 6 7 8 9 10 11]
+```
+
+To access the elements of the slice put ... after the slice variable.
+To join two slices you can do something like this:
+
+```go
+slice1 := []string{"the", "rain", "in", "Spain"}
+slice2 := []string{"falls", "mainly", "on", "the", "plane"}
+slice3 := append(slice1, slice2...)
+fmt.Println(slice3)
+```
+
+To delete an element you can do this:
+
+```go
+// delete the element with the index of 3
+x = append(x[:3], x[4:]...)
+fmt.Println(x) // [1 2 3 5 6 7 8 9 10 11] - 4 has vanished
 ```
 
 [Go Play Space Link: slices](https://goplay.space/#fSrIFSc-KQb)
