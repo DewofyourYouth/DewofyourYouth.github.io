@@ -119,7 +119,7 @@ x = append(x[:3], x[4:]...)
 fmt.Println(x) // [1 2 3 5 6 7 8 9 10 11] - 4 has vanished
 ```
 
-[Go Play Space Link: slices](https://goplay.space/#fSrIFSc-KQb)
+[Go Play Space Link: slices](https://goplay.space/#1jMAXCKZErJ)
 
 ## Loops In Go
 
