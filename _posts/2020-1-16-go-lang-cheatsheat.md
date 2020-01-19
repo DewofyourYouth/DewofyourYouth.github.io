@@ -187,7 +187,51 @@ for _, v := range whileSlice {
 
 ## Functions
 
-Placeholder
+Functions are indicated with the keyword `func`.
+
+```go
+func giveUsTheFunc() {
+	fmt.Println("Gotta have dat funk!")
+}
+
+func main() {
+	giveUsTheFunc() //Gotta have dat funk!
+}
+```
+
+A function can take one or more arguments:
+
+```go
+func sayHello(s string) {
+	fmt.Println("Hello", s)
+}
+
+
+func repeatPhrase(phrase string, times int) {
+	for times > 0 {
+		fmt.Println(times, phrase)
+		times--
+	}
+}
+
+func main() {
+	sayHello("Clarice") // Hello Clarice
+	repeatPhrase("bottles of beer on the wall", 10)
+}
+```
+
+You can define the output
+
+```go
+//              in: int out:int
+func squareAnInt(i int) int {
+	return i * i
+}
+
+func main() {
+	fmt.Println(squareAnInt(3)) // 9
+}
+```
 
 ## Maps
 
