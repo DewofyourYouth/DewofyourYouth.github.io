@@ -223,7 +223,7 @@ func main() {
 You can define the output
 
 ```go
-//              in: int out:int
+//              in:int  out:int
 func squareAnInt(i int) int {
 	return i * i
 }
@@ -242,14 +242,14 @@ Maps are kind of like hash tables (or python dictionaries).
 	fakePhoneNumbers := map[string]int64{
 		"Billy":  17185554545,
 		"Susan":   15612345678,
-		"Martha": 9173557171,
+		"Martha": 19173557171,
 	}
 	// you can also add to the map values like this
 	numbers["Jerry"] = 18002345555
 
 	fmt.Println(fakePhoneNumbers["Billy"]) // 17185554545
 	fmt.Println(fakePhoneNumbers["Susan"]) // 15612345678
-	fmt.Println(fakePhoneNumbers["Martha"]) // 9173557171
+	fmt.Println(fakePhoneNumbers["Martha"]) // 19173557171
 	fmt.Println(fakePhoneNumbers["Jerry"]) // 18002345555
 }
 ```
