@@ -11,7 +11,7 @@ I'm not paid for any promotions. If I ever am (highly unlikely) I will publicize
 
 ## [Habitica](https://habitica.com/)
 
-Habitica is an app that helps you gamify your if. This allows you to use the same obsessive focus you commit to getting to the next level in candy crush - with actually attaining life goals, breaking bad habits and enforcing good ones. I've been using it for about three weeks and it has been beneficial to me.
+Habitica is an app that helps you gamify your if. This allows you to use the same obsessive focus you commit to getting to the next level in candy crush - to actually attaining life goals, breaking bad habits and enforcing good ones. I've been using it for about three weeks and it has been beneficial to me.
 
 I do have some misgivings about the subtle skinner box like nature of the whole "gamify" idea, but advertisers, media and everything else is leveraging your rat like motivations - so why not let it work for you too?
 
