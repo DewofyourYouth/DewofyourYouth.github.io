@@ -18,7 +18,7 @@ Here I have put together some helpful go syntax, tips and tricks. Yay!
 - [Loops In Go](#loops-in-go)
 - [Functions](#functions)
 	- [Pointers](#pointers)
-		- [Example:](#example)
+	- [Recursive Example](#recursive-example)
 - [Maps](#maps)
 - [Struct Methods v. Functions + Interfaces](#struct-methods-v-functions--interfaces)
 
@@ -245,7 +245,7 @@ This points to the memory address the pointer is stored at.
 
 To reference a variable's pointer you add an ampersand in front of the variable name - to reference a pointer's value - you add an asterisks in front of the pointer.
 
-#### Example:
+Example:
 
 ```go
 myInt := 5
@@ -288,6 +288,8 @@ fmt.Println(myInt) // 6 😄
 ```
 
 [Go Play Space Link: pointers](https://goplay.space/#BQtQveQTm2Z)
+
+### Recursive Example
 
 Here's an example of a recursive function using pointers:
 
