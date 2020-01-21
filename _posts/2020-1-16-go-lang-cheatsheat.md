@@ -81,7 +81,7 @@ So to make something an array you would put the arrays length as an integer in t
 To make a slice it's the same thing, just without assigning a number.
 
 ```go
-mySliceOf := [string]{`pepperoni pizza`, `life`, `pie`}
+mySliceOf := []string{`pepperoni pizza`, `life`, `pie`}
 ```
 
 You can get a value from a slice or a slice of a slice.
