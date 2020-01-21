@@ -289,6 +289,51 @@ fmt.Println(myInt) // 6 😄
 
 [Go Play Space Link: pointers](https://goplay.space/#BQtQveQTm2Z)
 
+Here's an example of a recursive function using pointers:
+
+```go
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func cutSliceInHalf(s *[]int) {
+	// this will cut a slice of ints in half until there is only one left.
+	fmt.Println(*s)
+	if len(*s) <= 1 {
+		return
+	}
+	half := int(math.Floor(float64(len(*s)) / 2))
+	newSlice := []int{}
+	newSlice = append(newSlice, *s...)
+	*s = newSlice[:half]
+
+	cutSliceInHalf(s)
+
+}
+
+func main() {
+	mySlice := []int{1, 2, 3, 4, 5, 6, 7, 8}
+	cutSliceInHalf(&mySlice)
+	fmt.Println(mySlice, "Printed from main function")
+
+}
+```
+
+This will output:
+
+```
+[1 2 3 4 5 6 7 8]
+[1 2 3 4]
+[1 2]
+[1]
+[1] Printed from main function
+```
+
+[Go Play Space: recursive](https://goplay.space/#b6njCOXCxf-,2)
+
 ## Maps
 
 Maps are kind of like hash tables (or python dictionaries).
