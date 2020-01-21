@@ -67,6 +67,16 @@ You can also assign multiple variables together, like this:
 food, kosher, tastesLikeChicken := "alligator", false, true
 ```
 
+You can use this to switch values of variables:
+
+```go
+x := 5
+y := 6
+
+x, y = y, x
+fmt.Println("x:", x, "y:", y) //  x: 6 y: 5
+```
+
 [Go Play Space Link: variable assignment](https://goplay.space/#E0skIGHnA30)
 
 ## Arrays and Slices
