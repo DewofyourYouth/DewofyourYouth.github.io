@@ -243,7 +243,7 @@ Functions in Go take arguments and make a copy of the argument - they don't chan
 
 This points to the memory address the pointer is stored at.
 
-To reference a variable's pointer you add an ampersand in front of the variable name - to reference a pointer's value - you add an asterisks in front of the pointer.
+To reference a variable's pointer you add an ampersand in front of the variable name `&varName` - to reference a pointer's value - you add an asterisks in front of the pointer `*varName`.
 
 Example:
 
