@@ -17,6 +17,8 @@ Here I have put together some helpful go syntax, tips and tricks. Yay!
 - [Arrays and Slices](#arrays-and-slices)
 - [Loops In Go](#loops-in-go)
 - [Functions](#functions)
+	- [Pointers](#pointers)
+		- [Example:](#example)
 - [Maps](#maps)
 - [Struct Methods v. Functions + Interfaces](#struct-methods-v-functions--interfaces)
 
@@ -231,6 +233,56 @@ func squareAnInt(i int) int {
 func main() {
 	fmt.Println(squareAnInt(3)) // 9
 }
+```
+
+### Pointers
+
+Functions in Go take arguments and make a copy of the argument - they don't change the original variable. However, at times you may want to make a function that changes the actual state of a variable. In such cases - you would use pointers.
+
+This points to the memory address the pointer is stored at.
+
+To reference a variable's pointer you add an ampersand in front of the variable name - to reference a pointer's value - you add an asterisks in front of the pointer.
+
+#### Example:
+
+```go
+myInt := 5
+myPointer := &myInt
+fmt.Println(myInt) // 5
+fmt.Println(myPointer) // 0x40e020
+fmt.Println(*myPointer) // 5
+fmt.Println(&myInt) // 0x40e020
+```
+
+Now, suppose we wanted to make a function taking the int as an argument and adding on to the int - like this:
+
+```go
+func addOne(i int) { // input myInt (with the value of 5)
+	i = i + 1 // this will not change the original value of myInt
+	fmt.Println(i) // this will print out the copied value
+}
+```
+
+If we print out `myInt` in the main function we will still get 5.
+
+```go
+addOne(myInt)
+fmt.Println(myInt) // still 5 🙁
+```
+
+Now lets make a function using a pointer:
+
+```go
+func simonSaysAddOne(i *int) {
+	*i = *i + 1 // this will add one to the value stored in memory by the variable
+}
+```
+
+Now in the main function input the pointer:
+
+```go
+simonSaysAddOne(&myInt)
+fmt.Println(myInt) // 6 😄
 ```
 
 ## Maps
