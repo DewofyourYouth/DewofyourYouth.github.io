@@ -19,6 +19,7 @@ Here I have put together some helpful go syntax, tips and tricks. Yay!
 - [Functions](#functions)
 	- [Pointers](#pointers)
 	- [Recursive Example](#recursive-example)
+	- [Function Literals](#function-literals)
 - [Maps](#maps)
 - [Struct Methods v. Functions + Interfaces](#struct-methods-v-functions--interfaces)
 
@@ -335,6 +336,17 @@ This will output:
 ```
 
 [Go Play Space: recursive](https://goplay.space/#b6njCOXCxf-,2)
+
+### Function Literals
+
+Go also supports function literals - which is basically Go's term for lambda functions:
+
+```go
+isMoreThan100 := func(x int) bool { return x > 100}
+
+fmt.Println(isMoreThan100(10)) // false
+fmt.Println(isMoreThan100(1000)) // true
+```
 
 ## Maps
 
