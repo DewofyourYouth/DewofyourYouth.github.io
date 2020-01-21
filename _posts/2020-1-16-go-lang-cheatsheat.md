@@ -348,6 +348,8 @@ fmt.Println(isMoreThan100(10)) // false
 fmt.Println(isMoreThan100(1000)) // true
 ```
 
+[Go Play Space: function literals](https://goplay.space/#TbJ93hVuztf)
+
 ## Maps
 
 Maps are kind of like hash tables (or python dictionaries).
