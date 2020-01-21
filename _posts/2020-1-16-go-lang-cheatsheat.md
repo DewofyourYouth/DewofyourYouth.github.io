@@ -66,7 +66,7 @@ You can also assign multiple variables together, like this:
 food, kosher, tastesLikeChicken := "alligator", false, true
 ```
 
-[Go Play Space Link: variable assignment](https://goplay.space/#chP7SjGaWw2)
+[Go Play Space Link: variable assignment](https://goplay.space/#E0skIGHnA30)
 
 ## Arrays and Slices
 
@@ -122,7 +122,7 @@ x = append(x[:3], x[4:]...)
 fmt.Println(x) // [1 2 3 5 6 7 8 9 10 11] - 4 (@ index 3) has vanished
 ```
 
-[Go Play Space Link: slices](https://goplay.space/#1jMAXCKZErJ)
+[Go Play Space Link: slices](https://goplay.space/#_iyWeiznn3V)
 
 ## Loops In Go
 
@@ -235,6 +235,8 @@ func main() {
 }
 ```
 
+[Go Play Space Link: functions](https://goplay.space/#7BYOzziNEGk)
+
 ### Pointers
 
 Functions in Go take arguments and make a copy of the argument - they don't change the original variable. However, at times you may want to make a function that changes the actual state of a variable. In such cases - you would use pointers.
@@ -285,6 +287,8 @@ simonSaysAddOne(&myInt)
 fmt.Println(myInt) // 6 😄
 ```
 
+[Go Play Space Link: pointers](https://goplay.space/#BQtQveQTm2Z)
+
 ## Maps
 
 Maps are kind of like hash tables (or python dictionaries).
@@ -306,7 +310,7 @@ Maps are kind of like hash tables (or python dictionaries).
 }
 ```
 
-[Go Play Space Link: maps](https://goplay.space/#nIW3QM-95Rg)
+[Go Play Space Link: maps](https://goplay.space/#RtGPCBnCujT)
 
 ## Struct Methods v. Functions + Interfaces
 
