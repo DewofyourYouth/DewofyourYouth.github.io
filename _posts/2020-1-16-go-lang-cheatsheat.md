@@ -267,7 +267,7 @@ If we print out `myInt` in the main function we will still get 5.
 
 ```go
 addOne(myInt)
-fmt.Println(myInt) // still 5 🙁
+fmt.Println(myInt) // still 5 😦
 ```
 
 Now lets make a function using a pointer:
