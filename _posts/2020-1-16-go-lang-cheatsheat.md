@@ -363,6 +363,8 @@ Maps are kind of like hash tables (or python dictionaries).
 
 For those not thoroughly ensconced in the Go philosophy - just think of structs as objects.
 
+An interface is a construct that allows you to use all structs that have any given method and use them as one type.
+
 ```go
 package main
 
