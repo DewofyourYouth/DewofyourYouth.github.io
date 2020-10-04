@@ -31,6 +31,13 @@ fmt.Println(c)    // 43 - this is just referring to the value stored in "a" at t
 When you assign something to a variable in a function you will typically be assigning it to a pointer. Because when you use a variable in a function in Go - it will make a copy of the variable with the global scope and assign it to a variable of the same name with a local scope.
 
 ```go
+func main() {
+	s := "Nice try! Loser!"
+	failToChange(s)
+	fmt.Println("main function scope:", s) // Nice try! Loser!
+	actuallyChange(&s)
+	fmt.Println("main function scope:", s) // I know you are, but what am I?
+}
 // This will only change "s" inside this function
 func failToChange(s string) {
 	s = "I don't care what was here before, I will change you to a new string!"
