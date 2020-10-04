@@ -10,12 +10,12 @@
 .highlight .o { color: #3399cc } /* Operator */
 .highlight .x { color: #cccccc } /* Other */
 .highlight .p { color: #cccccc } /* Punctuation */
-.highlight .ch { color: #000080 } /* Comment.Hashbang */
-.highlight .cm { color: #000080 } /* Comment.Multiline */
-.highlight .cp { color: #000080 } /* Comment.Preproc */
-.highlight .cpf { color: #000080 } /* Comment.PreprocFile */
-.highlight .c1 { color: #000080 } /* Comment.Single */
-.highlight .cs { color: #cd0000; font-weight: bold } /* Comment.Special */
+.highlight .ch { color: #006680 } /* Comment.Hashbang */
+.highlight .cm { color: #006680 } /* Comment.Multiline */
+.highlight .cp { color: #006680 } /* Comment.Preproc */
+.highlight .cpf { color: #006680 } /* Comment.PreprocFile */
+.highlight .c1 { color: #006680 } /* Comment.Single */
+.highlight .cs { color: #006680; font-weight: bold } /* Comment.Special */
 .highlight .gd { color: #cd0000 } /* Generic.Deleted */
 .highlight .ge { color: #cccccc; font-style: italic } /* Generic.Emph */
 .highlight .gr { color: #FF0000 } /* Generic.Error */

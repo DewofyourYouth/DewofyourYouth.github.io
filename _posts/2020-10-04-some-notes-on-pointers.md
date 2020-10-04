@@ -6,6 +6,8 @@ comments: true
 published: true
 ---
 
+I realize that pointers are thing that people struggle with in Go, so I made a post just on that.
+
 ## The Symbols
 
 A pointer points to the memory address the variable is referencing. 
@@ -41,3 +43,4 @@ func actuallyChange(s *string) {
 ```
 
 [See in Go Play Space](https://goplay.space/#JLNj3qxxBfS)
+
