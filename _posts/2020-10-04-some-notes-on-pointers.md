@@ -4,9 +4,8 @@ title: 'Some Notes on Pointers in Go'
 date: 2020-10-04
 comments: true
 published: true
-catagories:
-    - go
-
+categories:
+  - go
 ---
 
 I realize that pointers are thing that people struggle with in Go, so I made a post just on that.
