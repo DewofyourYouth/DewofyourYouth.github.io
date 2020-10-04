@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Some Notes on Pointers in Go'
-date: 2020-10-04
+date: '2020-10-04'
 comments: true
 categories:
   - go
