@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Some Notes on Pointers in Go'
+title: 'Some Pointers on Pointers in Go'
 date: '2020-10-04'
 comments: true
 categories:
