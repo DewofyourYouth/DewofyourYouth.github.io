@@ -3,7 +3,6 @@ layout: post
 title: 'Some Notes on Pointers in Go'
 date: 2020-10-04
 comments: true
-published: true
 categories:
   - go
 ---
