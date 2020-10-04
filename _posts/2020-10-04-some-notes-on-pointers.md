@@ -33,12 +33,13 @@ When you assign something to a variable in a function you will typically be assi
 // This will only change "s" inside this function
 func failToChange(s string) {
 	s = "I don't care what was here before, I will change you to a new string!"
-	fmt.Println("failToChange scope:", s)
+    fmt.Println("failToChange scope:", s) // this will look like it works here 
+    //but remain unchanged outside the function
 }
 // This will change "s" everywhere
 func actuallyChange(s *string) {
 	*s = "I know you are, but what am I?"
-	fmt.Println("actuallyChange scope:", *s)
+	fmt.Println("actuallyChange scope:", *s) // this will work everywhere s is referenced
 }
 ```
 
