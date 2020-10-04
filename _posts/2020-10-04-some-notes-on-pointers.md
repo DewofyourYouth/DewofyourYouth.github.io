@@ -12,7 +12,7 @@ I realize that pointers are thing that people struggle with in Go, so I made a p
 ## The Symbols
 
 A pointer points to the memory address the variable is referencing. 
-The **ampersand** prints the address of a value. The **asterix** prints the value stored at an address.
+The **ampersand** refers to the address of a value. The **asterix** refers to the value stored at an address.
 
 ```go
 a := 43
