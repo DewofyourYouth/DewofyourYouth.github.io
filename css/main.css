@@ -1,9 +1,13 @@
 @import url(vim.css);
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Fira+Code|Press+Start+2P|Roboto+Slab|Tomorrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&family=Fira+Code&family=Open+Sans&family=Roboto+Slab&display=swap");
 .container-fluid {
   padding: 0;
 }
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
 @font-face {
   font-family: Noot;
   src: url("../fonts/Noot/Noot.otf") format("opentype");
@@ -49,7 +53,6 @@ h1 {
 }
 
 h2 {
-  font-family: "Tomorrow", sans-serif;
   padding: 10px;
 }
 
@@ -115,7 +118,7 @@ a.nav-link:hover {
 
 .posts h2 a {
   color: #0f0f0f;
-  font-family: "Tomorrow", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .posts li {
