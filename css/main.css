@@ -1,26 +1,34 @@
 @import url(vim.css);
-@import url('https://fonts.googleapis.com/css?family=Fira+Code|Press+Start+2P|Roboto+Slab|Tomorrow&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Fira+Code|Press+Start+2P|Roboto+Slab|Tomorrow&display=swap");
 .container-fluid {
   padding: 0;
 }
+@font-face {
+  font-family: Noot;
+  src: url("../fonts/Noot/Noot.otf") format("opentype");
+}
+
+.hebrew-logo {
+  font-family: Noot;
+}
 
 .highlight {
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
 }
 
 body {
   padding-top: 80px;
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
 }
 
 blockquote {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   background: #f9f9f9;
   font-size: 1.5rem;
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  quotes: '\201C''\201D''\2018''\2019';
+  quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
   color: #ccc;
@@ -34,11 +42,11 @@ blockquote p {
 }
 
 h1 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
 }
 
 h2 {
-  font-family: 'Tomorrow', sans-serif;
+  font-family: "Tomorrow", sans-serif;
   padding: 10px;
 }
 
@@ -55,7 +63,7 @@ h2 {
 
 .navbar-brand,
 .jumbotron {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
 }
 
 .navbar-brand img {
@@ -103,7 +111,7 @@ a.nav-link:hover {
 
 .posts h2 a {
   color: #9b8a8a;
-  font-family: 'Tomorrow', sans-serif;
+  font-family: "Tomorrow", sans-serif;
 }
 
 .posts li {
