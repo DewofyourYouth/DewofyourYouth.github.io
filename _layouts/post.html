@@ -12,8 +12,10 @@ comments: true
   {% if page.categories != empty || page.tags != empty %} {% if page.categories
   != empty %}
   <div class="meta">
-    <strong>categories:</strong> {% for category in page.categories
-    %}{{category}}, {% endfor %}
+    <strong>categories:</strong> {% for category in page.categories %}<a
+      href="/categories#{{ category}}"
+      >{{ category}}</a
+    >, {% endfor %}
   </div>
   {% endif %} {% if page.tags != empty %}
   <div class="meta"><strong>tags:</strong> {{ page.tags | join: ', ' }}</div>
@@ -21,9 +23,7 @@ comments: true
   <hr />
   {% endif %}
 
-  <div class="post">
-    {{ content }}
-  </div>
+  <div class="post">{{ content }}</div>
   &nbsp;
   <br />
   <hr />
@@ -31,12 +31,12 @@ comments: true
   {% if page.comments %}
   <div id="disqus_thread"></div>
   <script>
-    (function() {
+    (function () {
       // DON'T EDIT BELOW THIS LINE
       var d = document,
-        s = d.createElement('script');
-      s.src = 'https://dewofyouryouth-github-io.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
+        s = d.createElement("script");
+      s.src = "https://dewofyouryouth-github-io.disqus.com/embed.js";
+      s.setAttribute("data-timestamp", +new Date());
       (d.head || d.body).appendChild(s);
     })();
   </script>
