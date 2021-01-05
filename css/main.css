@@ -164,12 +164,9 @@ td {
     font-size: 2rem !important;
   }
 
-  a.nav-link {
-    font-size: 35px;
-  }
-
-  a.nav-link:hover {
-    font-size: 35px;
+  .navbar,
+  .nav-link {
+    font-size: 3rem !important;
   }
 
   .nav-item:hover {
