@@ -7,7 +7,7 @@ categories:
   - F#
 ---
 
-I've started to get my feet wet in C# and F#. I've discovered .NET interactive notebooks for C# and F# - which makes playing around with them more fun. I wonder if there is a way to embed them in markdown. Now that I've had an oppurtunity kick the tires a bit, here are some of my discoveries:
+I've started to get my feet wet in C# and F#. I've discovered .NET interactive notebooks for C# and F# - which makes playing around with them more fun. I wonder if there is a way to embed them in markdown. Now that I've had an opportunity kick the tires a bit, here are some of my discoveries:
 
 Here are some things that strike me as a little odd, but I'm sure were intentional decisions. Unlike most languages, in F# `=` is used for both assignment and equality. So you can do:
 
