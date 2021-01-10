@@ -43,6 +43,8 @@ let hello = add "Hello " "world!" // Error: expected ints, got strings
 
 So it seems like, even though I the definition of the function is identical in both cases, it is further defined by how I first use it. For some reason I find this counterintuitive and would rather just define my function from the getgo.
 
+For some reason, F# advocates like to make a big deal out of not needing to define your types. But I think I probably will. I'd rather be able to just look at a function and know how it behaves without seeing how it was used. Maybe there is something I'm missing here.
+
 Of course, I don't have to let the compiler infer the type, I can be as explicit as you want to be. Here I'm telling my functions exactly what I want them to recieve.
 
 ```fsharp
@@ -60,8 +62,6 @@ let new_list = double_then_add [1..10] // [3; 5; 7; 9; 11; 13; 15; 17; 19; 21]
 let another_new_list = add_then_double [1..10] // [4; 6; 8; 10; 12; 14; 16; 18; 20; 22]
 let a_third_new_list = also_add_then_double [1..10] // [4; 6; 8; 10; 12; 14; 16; 18; 20; 22]
 ```
-
-For some reason, F# people like to make a big deal out of not needing to define your types. But I think I probably will. I'd rather be able to just look at a function and know how it behaves without seeing how it was used. Maybe there is something I'm missing here.
 
 The `>>` operator is called the composition operator.
 Theres also a piping operator like this:
