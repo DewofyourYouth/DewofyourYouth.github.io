@@ -36,7 +36,7 @@ Also, in F# you don't have to declare the type. F# figures the type out for you.
 // but what kinda of things?
 let add_stuff x y = x + y
 // Here, the compiler decides that I'm concatenating strings with this function
-let hello = add "Hello " "world!" // So this will output "Hello world!"
+let hello = add "Hello " "world!" //  "Hello world!"
 // If I then try to add numbers I will get a type error
 let my_sum = add 10 30 // Error: expected strings, got ints
 ```
@@ -49,9 +49,9 @@ let my_sum = add 10 30 // 40
 let hello = add "Hello " "world!" // Error: expected ints, got strings
 ```
 
-So it seems like, even though I the definition of the function is identical in both cases, it is further defined by how I first use it. For some reason I find this counterintuitive and would rather just define my function from the getgo.
+So it seems like, even though I the definition of the function is identical in both cases, it is further defined by how I first use it. For some reason I find this counter intuitive and would rather just define my function from the get-go.
 
-For some reason, F# advocates like to make a big deal out of not needing to define your types. But I think I probably will. I'd rather be able to just look at a function and know how it behaves without seeing how it was used. Maybe there is something I'm missing here.
+The Microsoft docs make a big deal out of not needing to define your types. I'm not sure why this is a feature. I'd rather be able to just look at a function and know how it behaves without seeing how it was used. Maybe there is something I'm missing here.
 
 Of course, I don't have to let the compiler infer the type, I can be as explicit as you want to be. Here I'm telling my functions exactly what I want them to recieve.
 
