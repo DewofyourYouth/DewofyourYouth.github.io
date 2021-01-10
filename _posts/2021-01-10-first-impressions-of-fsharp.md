@@ -2,14 +2,22 @@
 layout: post
 title: "First Impressions of F#"
 date: "2021-01-10"
+published: true
 comments: true
+tags:
+  - Fsharp
+  - firstImpressions
 categories:
   - F#
 ---
 
-I've started to get my feet wet in C# and F#. I've discovered .NET interactive notebooks for C# and F# - which makes playing around with them more fun. I wonder if there is a way to embed them in markdown. Now that I've had an opportunity kick the tires a bit, here are some of my discoveries:
+One of my goes for 2021 is to learn C# and F# (I mostly work in Python and JavaScript). [More details about New Years resolutions here.](https://dewofyouryouth.github.io/new%20years/c%23/f%23/2021/01/04/kicking-off-2021.html)
 
-Here are some things that strike me as a little odd, but I'm sure were intentional decisions. Unlike most languages, in F# `=` is used for both assignment and equality. So you can do:
+I've started to get my feet wet in F#. I've discovered .NET interactive notebooks for C# and F# - which makes playing around with them more fun. (I wonder if there is a way to embed them in markdown, but I digress.) Now that I've had an opportunity kick the tires a bit, here are some of my discoveries:
+
+There are some things that strike me as a little odd, but I'm sure they were intentional decisions.
+
+Unlike most languages, in F# `=` is used for both assignment and equality. So you can do:
 
 ```fsharp
 let my_bool = 10 = 2
@@ -21,7 +29,7 @@ printf "%i" this_is_ten // 2
 
 I suppose this is similar to SQL. Similarly, `!=` is not used to show inequality but rather `<>`.
 
-Also, in F# you don't have to declare the type - F# figures that out for you. Apparently, this can even happen after instanciation.
+Also, in F# you don't have to declare the type. F# figures the type out for you. But apparently, this can happen even after you declare something. For example:
 
 ```fsharp
 // This is a function that adds two things together
@@ -83,3 +91,5 @@ Theres also a piping operator like this:
 ```
 
 I'm not 100% yet on what the difference between piping and composing is.
+
+If anyone else has insights on F# that they feel could be helpful - or would like to clarify things for me, it would be most appreciated. :)
