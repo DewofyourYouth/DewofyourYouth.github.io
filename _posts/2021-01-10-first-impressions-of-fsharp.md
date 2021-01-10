@@ -71,6 +71,7 @@ Theres also a piping operator like this:
 |> List.filter(fun x -> (x%2) = 0) // filter out all odd numbers
 |> List.map(fun x -> x * 2) // Multiply them all by 2
 |> printfn "Even doubles: %A"
+
 (**
     Will return this:
 
