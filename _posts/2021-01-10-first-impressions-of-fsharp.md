@@ -8,7 +8,7 @@ tags:
   - Fsharp
   - firstImpressions
 categories:
-  - F#
+  - FSharp
 ---
 
 One of my goes for 2021 is to learn C# and F# (I mostly work in Python and JavaScript). [More details about New Years resolutions here.](https://dewofyouryouth.github.io/new%20years/c%23/f%23/2021/01/04/kicking-off-2021.html)
