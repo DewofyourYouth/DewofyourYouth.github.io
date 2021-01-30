@@ -1,0 +1,19 @@
+{
+    "Front Matter Post" : {
+        "prefix" : "fmp",
+        "body" : [
+            "---",
+            "layout: post",
+            "title: \"${1:post title}\"",
+            "date: \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\"",
+            "published: true",
+            "comments: true",
+            "tags:",
+            "  - ${2:tag}",
+            "categories:",
+            "  - ${3:category}",
+            "---"
+        ]
+    }
+	
+}
