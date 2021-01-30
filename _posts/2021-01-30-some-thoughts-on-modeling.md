@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Some Thoughts Modeling In Jupyter Notebooks"
+title: "Some Thoughts About Data Modeling In Jupyter Notebooks"
 date: "2021-01-30"
 published: true
 comments: true
@@ -15,7 +15,7 @@ categories:
   - data
 ---
 
-My job recent sponsored my taking a Nanodegree course at Udacity for data engineering. So far, the projects seem to be done mostly by interacting with various databases (currently PostgreSQL and Cassandra) through python in Jupyter Notebooks set up on their platform. The format they set up the exercises is really rather repetitive an tedious. Each insert is the same thing, many times. I wonder if this is a common pattern among data people, or just an attempt to get you used to writing the SQL.
+My job recent sponsored my taking a Nanodegree course at Udacity for data engineering. So far, the projects seem to be done mostly by interacting with various databases (currently PostgreSQL and Cassandra) through python in Jupyter Notebooks set up on their platform. The format they set up the exercises is really rather repetitive an tedious. Each insert is the same thing, many times. I wonder if this is a common pattern among data people, or just an attempt to get you used to writing the SQL. (Although, SQL knowledge and python was a supposedly prerequisite for the course, so this is a bit confusing.)
 
 I've taken to working out the SQL using DataGrip locally first, then implementing the queries through abstracting the queries to classes. It seems wrong to use an ORM when the course isn't (especially, since I know data people often hate ORMs 😀), so I have set up the classes myself. Here is the basic idea:
 
@@ -35,7 +35,9 @@ class MetaInsert(type):
         return iter(getattr(self, "instances", []))
 
 # This just creates the table
-# Should probably take a string for the table name and lists for columns and types so it could be leveraged for all tables.
+# Should probably take a string for the table name and
+# namedtuples for columns and types -
+# so it could be leveraged for all tables.
 def create_cheese_table():
     try:
         cur.execute(f"CREATE TABLE IF NOT EXISTS cheese (id SERIAL, name varchar);")
