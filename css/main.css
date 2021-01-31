@@ -63,7 +63,7 @@ h2 {
 
 .jumbotron {
   border-radius: 0;
-  padding: 80px 20px;
+  padding: 10px 30px;
   background: linear-gradient(
       to right,
       rgba(5, 5, 5, 0.99),
@@ -123,7 +123,7 @@ a.nav-link:hover {
 
 .posts li {
   border-bottom: solid 1px #e5e5e5;
-  padding-top: 10px;
+  padding-top: 5px;
   margin: 5px;
 }
 
@@ -157,6 +157,16 @@ td {
 .meta {
   font-size: 0.8rem;
   padding-left: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination a {
+  display: inline-block;
+  margin: 0 10px;
 }
 
 @media only screen and (max-width: 900px) {

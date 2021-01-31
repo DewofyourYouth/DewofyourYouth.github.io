@@ -10,7 +10,7 @@ title: Dew of your Youth
   <h1>{{ page.title }}</h1>
   <p>{{ site.description }}</p>
 </div>
-
+<hr />
 <div class="container">
   <p>
     <a class="btn btn-primary" href="/feed.xml">
@@ -18,12 +18,12 @@ title: Dew of your Youth
     >
   </p>
   <ul class="posts">
-    {% for post in paginator.posts %}
+    {% for post in pagination.posts %}
     <li>
-      <small> {{ post.date | date_to_string }}</small>
-      <h4>
+      <span> {{ post.date | date_to_string }}</span>
+      <h3>
         <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-      </h4>
+      </h3>
       {% if post.categories != empty %}
       <p class="meta">
         <strong>CATEGORIES:</strong> {{ post.categories | join: ', ' }}
@@ -33,22 +33,4 @@ title: Dew of your Youth
     </li>
     {% endfor %}
   </ul>
-</div>
-<!-- Pagination links -->
-<div class="container text-center">
-  <div class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">
-      <i class="fas fa-arrow-circle-left"></i>
-    </a>
-    {% else %} {% endif %}
-    <span class="page_number">
-      Page: {{ paginator.page }} of {{ paginator.total_pages }}
-    </span>
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next"
-      ><i class="fas fa-arrow-circle-right"></i
-    ></a>
-    {% else %} {% endif %}
-  </div>
 </div>
