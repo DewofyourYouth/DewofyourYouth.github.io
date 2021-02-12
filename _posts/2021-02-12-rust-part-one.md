@@ -118,7 +118,7 @@ eight_bit_fun -= 2;
 Output:
   |
 3 | eight_bit_fun -= 6;
-  | ^^^^^^ attempt to compute `5_u8 - 6_u8`, which would overflow
+  | ^^^^^^ attempt to compute `1_u8 - 2_u8`, which would overflow
   |
   = note: `#[deny(arithmetic_overflow)]` on by default
 ```
