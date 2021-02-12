@@ -16,6 +16,16 @@ The docs on Rust are very good and the have a script that installs Rust and Carg
 
 It seems necessary to say that Rust sets out to be safe by default and to have a compiler that catches and doesn't allow unsafe code. I find that most times in Rust, the compiler error will pinpoint where the problem with my code is, give the reasoning why it's not allowing the code - and actually give suggestions for a fix. I find this to be very helpful and will provide some examples later.
 
+## Hello Rust!
+
+```rust
+// main.rs
+fn main() {
+    println!("Hello Rust!");
+}
+
+```
+
 ### Running A Rust Program
 
 You could run this like this:
