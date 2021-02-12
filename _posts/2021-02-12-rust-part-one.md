@@ -16,6 +16,8 @@ The docs on Rust are very good and the have a script that installs Rust and Carg
 
 It seems necessary to say that Rust sets out to be safe by default and to have a compiler that catches and doesn't allow unsafe code. I find that most times in Rust, the compiler error will pinpoint where the problem with my code is, give the reasoning why it's not allowing the code - and actually give suggestions for a fix. I find this to be very helpful and will provide some examples later.
 
+NOTE: If you are trying out the code here - I left out the `fn main {}` for all but the first sample. Also, if you don't want warning about unused variables add `#![allow(unused)]` at the top. You can also try the [Rust Playground](https://play.rust-lang.org/).
+
 ## Hello Rust!
 
 ```rust
@@ -192,7 +194,7 @@ let months = ["January", "February", "March", "April", "May", "June", "July",
     "August", "September", "October", "November", "December"];
 let [jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec] = months;
 println!("{}", apr);
-println!("{}", months[3])
+println!("{}", months[3]);
 ```
 
 ```zsh
