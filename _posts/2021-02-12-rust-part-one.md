@@ -79,9 +79,8 @@ Rust is strong typed - so you can only assign another integer to x:
     x = "Sidney";
 ```
 
-Will return:
-
 ```zsh
+Output:
   |
 4 | x = "Sidney";
   |     ^^^^^^^ expected integer, found `&str`
@@ -95,7 +94,10 @@ let x = "Sidney";
 println!("Hi, {}!", x);
 ```
 
-This will output "Hi, Sidney!" as expected.
+```zsh
+Output:
+Hi, Sidney!
+```
 
 By default, Rust will make all the integers you create signed 32 bit integers (`i32`) - but there are a bunch of types you can assign them to. Here I am assigning a number to an unsigned 8 bit integer.
 
@@ -110,9 +112,8 @@ Since the number is unsigned - if I try to subtract 2 from `eight_bit_fun` I wil
 eight_bit_fun -= 2;
 ```
 
-This will output:
-
 ```zsh
+Output:
   |
 3 | eight_bit_fun -= 6;
   | ^^^^^^ attempt to compute `5_u8 - 6_u8`, which would overflow
@@ -123,10 +124,16 @@ This will output:
 However, if I really, really want to overflow - I can do so explicitly with the `wrapping_sub` method:
 
 ```rust
-println!("1 - 2 = {}", eight_bit_fun.wrapping_sub(2)); // 1 - 2 = 255
+println!("1 - 2 = {}", eight_bit_fun.wrapping_sub(2));
 ```
 
-Off course, there are also floats (decimal point numbers).
+```zsh
+Output:
+
+1 - 2 = 255
+```
+
+Off course, there are also floats (decimal point numbers), I'm sure you can imagine.
 
 Besides ints, floats, and strings, there are collections, like tuples and arrays.
 
@@ -134,7 +141,7 @@ this is a tuple:
 
 ```rust
 let my_tup: (&str, bool, i32, f64) = ("my tuple", true, 100, 11.3);
-// this is similar to python - or object destructuring in JavaScript
+// this is similar to python tuples - or object destructuring for arrays in JavaScript
 let (name, is_tuple, my_int, my_float) = my_tup;
 
 println!("name: {}, is_tuple: {}, my_int: {}, my_float: {}", name, is_tuple, my_int, my_float);
@@ -176,6 +183,23 @@ println!("{}", months[1]);
 Output
 
 February
+```
+
+You can do the same destructuring assignment with arrays. (NOTE: Stay tuned, there are better ways to do something like this.)
+
+```rust
+let months = ["January", "February", "March", "April", "May", "June", "July",
+    "August", "September", "October", "November", "December"];
+let [jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec] = months;
+println!("{}", apr);
+println!("{}", months[3])
+```
+
+```zsh
+Output:
+
+April
+April
 ```
 
 We will get more into loops later on, but if we wanter to loop through them we would do this:
