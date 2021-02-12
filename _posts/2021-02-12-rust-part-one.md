@@ -122,7 +122,7 @@ this is a tuple:
 
 ```rust
 let my_tup: (&str, bool, i32, f64) = ("my tuple", true, 100, 11.3);
-// this is similar to python - or obj destructuring in JavaScript
+// this is similar to python - or object destructuring in JavaScript
 let (name, is_tuple, my_int, my_float) = my_tup;
 
 println!("name: {}, is_tuple: {}, my_int: {}, my_float: {}", name, is_tuple, my_int, my_float);
@@ -160,15 +160,21 @@ This will print the second month:
 println!("{}", months[1]);
 ```
 
+```zsh
+Output
+
+February
+```
+
 We will get more into loops later on, but if we wanter to loop through them we would do this:
+
+This loops through all the months as a numbered list:
 
 ```rust
 for (i, month) in months.iter().enumerate() {
     println!("{}: {}", i + 1, month);
 }
 ```
-
-This loops through all the months as a numbered list:
 
 ```zsh
 Output:
