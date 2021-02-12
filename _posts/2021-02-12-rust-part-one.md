@@ -69,16 +69,16 @@ fn main() {
 The above program produces an immutable value `name`. If you are planning on reassigning a variable you can do:
 
 ```rust
-    let mut x = 5;
-    x = 6;
-    println!("The value of x is {}.", x); // The value of x is 6.
+let mut x = 5;
+x = 6;
+println!("The value of x is {}.", x); // The value of x is 6.
 ```
 
 Rust is strong typed - so you can only assign another integer to x:
 
 ```rust
-    let mut x = 5;
-    x = "Sidney";
+let mut x = 5;
+x = "Sidney";
 ```
 
 ```zsh
