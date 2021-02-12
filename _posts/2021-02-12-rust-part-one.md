@@ -234,6 +234,10 @@ Output:
 
 If we didn't want the index we would just do: `for month in months.iter(){println!("{}", month)}` without `.enumerate()` at the end.
 
+Here is a [link to above code](https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=74c282811597b9013cae111d530e48f0).
+
+Here is a [Gist](https://gist.github.com/DewofyourYouth/2756e6a3b2bc6b96f9669f36f3c87d44) with some more stuff.
+
 Next Rust posts planned will talk about:
 
 1. control flow (mostly rust specific stuff - `match` and `loop`)
