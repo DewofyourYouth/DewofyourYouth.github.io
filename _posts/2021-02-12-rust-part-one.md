@@ -116,7 +116,9 @@ However, if I really, really want to overflow - I can do so explicitly with the 
 println!("1 - 2 = {}", eight_bit_fun.wrapping_sub(2)); // 1 - 2 = 255
 ```
 
-Besides ints and strings, there are collections, like tuples and arrays.
+Off course, there are also floats (decimal point numbers).
+
+Besides ints, floats, and strings, there are collections, like tuples and arrays.
 
 this is a tuple:
 
@@ -195,3 +197,9 @@ Output:
 ```
 
 If we didn't want the index we would just do: `for month in months.iter(){println!("{}", month)}` without `.enumerate()` at the end.
+
+Next Rust posts planned will talk about:
+
+1. control flow (mostly rust specific stuff - `match` and `loop`)
+2. functions, pointers, ownership, and slices
+3. structs, enums and methods
